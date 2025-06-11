@@ -1,11 +1,13 @@
-import Announcement from "@/components/Layout/Announcement";
-import React from "react";
+import Layout from "@/components/Layout";
+import Hero from "@/components/Pages/Home/Hero";
+import PropertyType from "@/components/Pages/Home/PropertyType";
 
 const index = () => {
   return (
-    <div>
-      <Announcement />
-    </div>
+    <Layout>
+      <Hero />
+      <PropertyType />
+    </Layout>
   );
 };
 
