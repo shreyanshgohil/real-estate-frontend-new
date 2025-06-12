@@ -48,7 +48,7 @@ const PropertyType = () => {
           >
             <div class="swiper-wrapper">
               <Swiper
-                slidesPerView={6}
+                slidesPerView={1}
                 loop={true}
                 autoplay={{
                   delay: 2500,
@@ -56,6 +56,23 @@ const PropertyType = () => {
                 }}
                 spaceBetween={24}
                 modules={[Autoplay]}
+                breakpoints={{
+                  400: {
+                    slidesPerView: 2,
+                  },
+                  768: {
+                    slidesPerView: 3,
+                  },
+                  992: {
+                    slidesPerView: 4,
+                  },
+                  1200: {
+                    slidesPerView: 5,
+                  },
+                  1300: {
+                    slidesPerView: 6,
+                  },
+                }}
               >
                 <SwiperSlide>
                   <div class="swiper-slide">
