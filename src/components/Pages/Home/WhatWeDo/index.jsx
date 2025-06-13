@@ -31,7 +31,6 @@ const WhatWeDo = () => {
     // document.addEventListener("DOMContentLoaded", function () {
     const shapeElements = document.querySelectorAll(".shape-mockup");
 
-    debugger;
     if (shapeElements.length > 0) {
       shapeMockup(Array.from(shapeElements));
     }
@@ -41,7 +40,9 @@ const WhatWeDo = () => {
     <section class="why-sec-2 bg-smoke space" id="why-sec">
       <div
         class="shape-mockup jump d-none d-md-block"
-        style={{ top: "20%", right: "5%" }}
+        data-top="16%"
+        data-right="7%"
+        // style={{ top: "20%", right: "7%" }}
         // style="top: 20%; right: 5%;"
       >
         <img src="/images/home/why-2-shape.png" alt="img" />

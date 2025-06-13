@@ -1,15 +1,19 @@
 import React from "react";
 import AnnouncementBar from "./AnnouncementBar";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <div>
+      <header>
         <AnnouncementBar />
         <Header />
-      </div>
+      </header>
       <div>{children}</div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
