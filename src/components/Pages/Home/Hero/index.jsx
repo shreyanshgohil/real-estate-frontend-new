@@ -59,12 +59,12 @@ const Hero = () => {
         >
           <video
             className="hero-video"
-            id="video"
             src="/images/home/hero-2-video.mp4"
-            loop=""
-            muted=""
-            autoplay=""
-          ></video>
+            loop={true}
+            muted={true}
+            autoPlay={true}
+            playsInline={true}
+          />
           <div className="row justify-content-center gy-50 gx-40 align-items-center">
             <div className="col-xxl-8 col-xl-9 col-lg-11">
               <div className="hero-2-content text-center">
