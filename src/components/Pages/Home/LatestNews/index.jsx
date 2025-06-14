@@ -4,28 +4,28 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 const LatestNews = () => {
   return (
-    <section class="space overflow-hidden" id="blog-sec">
-      <div class="container">
-        <div class="row justify-content-lg-between justify-content-center align-items-end">
-          <div class="col-lg-6">
-            <div class="title-area text-left text-lg-start">
+    <section className="space overflow-hidden" id="blog-sec">
+      <div className="container">
+        <div className="row justify-content-lg-between justify-content-center align-items-end">
+          <div className="col-lg-6">
+            <div className="title-area text-left text-lg-start">
               <p
-                class="sub-title fadeinup wow"
+                className="sub-title fadeinup wow"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.1s"
               >
                 {" "}
-                <span class="double-line"></span>latest News
+                <span className="double-line"></span>latest News
               </p>
               <h2
-                class="sec-title fadeinup wow"
+                className="sec-title fadeinup wow"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.3s"
               >
                 Latest news & articles
               </h2>
               <p
-                class="sec-text pe-xl-4 fadeinup wow"
+                className="sec-text pe-xl-4 fadeinup wow"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.5s"
               >
@@ -35,10 +35,10 @@ const LatestNews = () => {
               </p>
             </div>
           </div>
-          <div class="col-lg-auto d-none d-lg-block">
-            <div class="sec-btn">
-              <a href="blog.html" class="th-btn pill style3">
-                Explore All <i class="fas fa-arrow-up-right"></i>
+          <div className="col-lg-auto d-none d-lg-block">
+            <div className="sec-btn">
+              <a href="blog.html" className="th-btn pill style3">
+                Explore All <i className="fas fa-arrow-up-right"></i>
               </a>
             </div>
           </div>
@@ -66,31 +66,31 @@ const LatestNews = () => {
             }}
           >
             <SwiperSlide>
-              <div class="blog-card">
-                <div class="blog-img">
+              <div className="blog-card">
+                <div className="blog-img">
                   <a href="blog-details.html">
                     <img src="/images/home/blog_1_3.jpg" alt="Image" />
                   </a>
-                  <div class="date">
+                  <div className="date">
                     <a href="blog.html">22 Feb</a>
                   </div>
                 </div>
-                <div class="blog-content">
-                  <div class="blog-meta">
+                <div className="blog-content">
+                  <div className="blog-meta">
                     <a href="blog.html">
-                      <i class="fa-solid fa-user"></i> Emma
+                      <i className="fa-solid fa-user"></i> Emma
                     </a>
                     <a href="blog.html">
-                      <i class="fa-solid fa-comments"></i> No Comments
+                      <i className="fa-solid fa-comments"></i> No Comments
                     </a>
                   </div>
-                  <h3 class="box-title">
+                  <h3 className="box-title">
                     <a href="blog-details.html">
                       Building gains into housing stocks and how to trade the
                       sector
                     </a>
                   </h3>
-                  <a href="blog-details.html" class="th-btn pill style3">
+                  <a href="blog-details.html" className="th-btn pill style3">
                     {" "}
                     Read More
                   </a>
@@ -98,31 +98,31 @@ const LatestNews = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide class="swiper-slide">
-              <div class="blog-card">
-                <div class="blog-img">
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-card">
+                <div className="blog-img">
                   <a href="blog-details.html">
                     <img src="/images/home/blog_1_3.jpg" alt="Image" />
                   </a>
-                  <div class="date">
+                  <div className="date">
                     <a href="blog.html">23 Feb</a>
                   </div>
                 </div>
-                <div class="blog-content">
-                  <div class="blog-meta">
+                <div className="blog-content">
+                  <div className="blog-meta">
                     <a href="blog.html">
-                      <i class="fa-solid fa-user"></i> Michel
+                      <i className="fa-solid fa-user"></i> Michel
                     </a>
                     <a href="blog.html">
-                      <i class="fa-solid fa-comments"></i> 2 Comments
+                      <i className="fa-solid fa-comments"></i> 2 Comments
                     </a>
                   </div>
-                  <h3 class="box-title">
+                  <h3 className="box-title">
                     <a href="blog-details.html">
                       92% of millennial homebuyers say has impacted their plans
                     </a>
                   </h3>
-                  <a href="blog-details.html" class="th-btn pill style3">
+                  <a href="blog-details.html" className="th-btn pill style3">
                     {" "}
                     Read More
                   </a>
@@ -130,31 +130,31 @@ const LatestNews = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide class="swiper-slide">
-              <div class="blog-card">
-                <div class="blog-img">
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-card">
+                <div className="blog-img">
                   <a href="blog-details.html">
                     <img src="/images/home/blog_1_3.jpg" alt="Image" />
                   </a>
-                  <div class="date">
+                  <div className="date">
                     <a href="blog.html">24 Feb</a>
                   </div>
                 </div>
-                <div class="blog-content">
-                  <div class="blog-meta">
+                <div className="blog-content">
+                  <div className="blog-meta">
                     <a href="blog.html">
-                      <i class="fa-solid fa-user"></i> Oliver
+                      <i className="fa-solid fa-user"></i> Oliver
                     </a>
                     <a href="blog.html">
-                      <i class="fa-solid fa-comments"></i> No Comments
+                      <i className="fa-solid fa-comments"></i> No Comments
                     </a>
                   </div>
-                  <h3 class="box-title">
+                  <h3 className="box-title">
                     <a href="blog-details.html">
                       Exploring the impact of climate change on global markets
                     </a>
                   </h3>
-                  <a href="blog-details.html" class="th-btn pill style3">
+                  <a href="blog-details.html" className="th-btn pill style3">
                     {" "}
                     Read More
                   </a>
@@ -162,32 +162,32 @@ const LatestNews = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide class="swiper-slide">
-              <div class="blog-card">
-                <div class="blog-img">
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-card">
+                <div className="blog-img">
                   <a href="blog-details.html">
                     <img src="/images/home/blog_1_3.jpg" alt="Image" />
                   </a>
-                  <div class="date">
+                  <div className="date">
                     <a href="blog.html">26 Feb</a>
                   </div>
                 </div>
-                <div class="blog-content">
-                  <div class="blog-meta">
+                <div className="blog-content">
+                  <div className="blog-meta">
                     <a href="blog.html">
-                      <i class="fa-solid fa-user"></i> Elena
+                      <i className="fa-solid fa-user"></i> Elena
                     </a>
                     <a href="blog.html">
-                      <i class="fa-solid fa-comments"></i> 5 Comments
+                      <i className="fa-solid fa-comments"></i> 5 Comments
                     </a>
                   </div>
-                  <h3 class="box-title">
+                  <h3 className="box-title">
                     <a href="blog-details.html">
                       The future of city living and its influence on of the in
                       design
                     </a>
                   </h3>
-                  <a href="blog-details.html" class="th-btn pill style3">
+                  <a href="blog-details.html" className="th-btn pill style3">
                     {" "}
                     Read More
                   </a>
@@ -195,31 +195,31 @@ const LatestNews = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide class="swiper-slide">
-              <div class="blog-card">
-                <div class="blog-img">
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-card">
+                <div className="blog-img">
                   <a href="blog-details.html">
                     <img src="/images/home/blog_1_3.jpg" alt="Image" />
                   </a>
-                  <div class="date">
+                  <div className="date">
                     <a href="blog.html">27 Feb</a>
                   </div>
                 </div>
-                <div class="blog-content">
-                  <div class="blog-meta">
+                <div className="blog-content">
+                  <div className="blog-meta">
                     <a href="blog.html">
-                      <i class="fa-solid fa-user"></i> Sam
+                      <i className="fa-solid fa-user"></i> Sam
                     </a>
                     <a href="blog.html">
-                      <i class="fa-solid fa-comments"></i> No Comments
+                      <i className="fa-solid fa-comments"></i> No Comments
                     </a>
                   </div>
-                  <h3 class="box-title">
+                  <h3 className="box-title">
                     <a href="blog-details.html">
                       Exploring innovative architecture trends and their impact
                     </a>
                   </h3>
-                  <a href="blog-details.html" class="th-btn pill style3">
+                  <a href="blog-details.html" className="th-btn pill style3">
                     {" "}
                     Read More
                   </a>
@@ -227,32 +227,32 @@ const LatestNews = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide class="swiper-slide">
-              <div class="blog-card">
-                <div class="blog-img">
+            <SwiperSlide className="swiper-slide">
+              <div className="blog-card">
+                <div className="blog-img">
                   <a href="blog-details.html">
                     <img src="/images/home/blog_1_3.jpg" alt="Image" />
                   </a>
-                  <div class="date">
+                  <div className="date">
                     <a href="blog.html">16 Mar</a>
                   </div>
                 </div>
-                <div class="blog-content">
-                  <div class="blog-meta">
+                <div className="blog-content">
+                  <div className="blog-meta">
                     <a href="blog.html">
-                      <i class="fa-solid fa-user"></i> David
+                      <i className="fa-solid fa-user"></i> David
                     </a>
                     <a href="blog.html">
-                      <i class="fa-solid fa-comments"></i> 8 Comments
+                      <i className="fa-solid fa-comments"></i> 8 Comments
                     </a>
                   </div>
-                  <h3 class="box-title">
+                  <h3 className="box-title">
                     <a href="blog-details.html">
                       Breaking down latest tech trends and investment
                       opportunity
                     </a>
                   </h3>
-                  <a href="blog-details.html" class="th-btn pill style3">
+                  <a href="blog-details.html" className="th-btn pill style3">
                     {" "}
                     Read More
                   </a>
@@ -262,15 +262,15 @@ const LatestNews = () => {
           </Swiper>
           <button
             data-slider-prev="#blogSlider1"
-            class="slider-arrow slider-prev"
+            className="slider-arrow slider-prev"
           >
-            <i class="far fa-arrow-left"></i>
+            <i className="far fa-arrow-left"></i>
           </button>
           <button
             data-slider-next="#blogSlider1"
-            class="slider-arrow slider-next"
+            className="slider-arrow slider-next"
           >
-            <i class="far fa-arrow-right"></i>
+            <i className="far fa-arrow-right"></i>
           </button>
         </div>
       </div>

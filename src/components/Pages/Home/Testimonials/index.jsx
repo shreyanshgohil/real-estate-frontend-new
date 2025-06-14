@@ -5,21 +5,21 @@ import { Pagination, Navigation } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <section class="testi-card-area-2 space overflow-hidden">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-7">
-            <div class="title-area text-center">
+    <section className="testi-card-area-2 space overflow-hidden">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-xl-7">
+            <div className="title-area text-center">
               <p
-                class="sub-title fadeinup wow"
+                className="sub-title fadeinup wow"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.1s"
               >
                 {" "}
-                <span class="double-line"></span>Testimonials
+                <span className="double-line"></span>Testimonials
               </p>
               <h2
-                class="sec-title fadeinup wow"
+                className="sec-title fadeinup wow"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.3s"
               >
@@ -28,23 +28,23 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div class="row gy-4 justify-content-center">
-          <div class="testi-card-slide">
+        <div className="row gy-4 justify-content-center">
+          <div className="testi-card-slide">
             <div
-              class="swiper has-shadow th-slider"
+              className="swiper has-shadow th-slider"
               id="testiSlide1"
               data-slider-options='{"centeredSlides":true,"paginationType": "progressbar","loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'
             >
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="testi-block style-2" dir="ltr">
-                    <div class="top-wrap">
-                      <div class="quote">
+              <div className="swiper-wrapper">
+                <div className="swiper-slide">
+                  <div className="testi-block style-2" dir="ltr">
+                    <div className="top-wrap">
+                      <div className="quote">
                         <img src="/images/icons/testi-2quote.svg" alt="quote" />
                       </div>
                     </div>
-                    <div class="testi-content pe-xl-5 px-xl-5">
-                      <p class="box-text">
+                    <div className="testi-content pe-xl-5 px-xl-5">
+                      <p className="box-text">
                         “Adinventitias sequi cerno cedo vapulus adhaero decretum
                         suppono iure voluptate. Trans triumphus toties sed
                         cogito carbo valetudo aequus ciminatio conventus.
@@ -55,36 +55,36 @@ const Testimonials = () => {
                         comparo ascisco ceno vitiosus aeneus tenetur bibo.”
                       </p>
                     </div>
-                    <div class="bottom-wrap">
-                      <div class="box-review">
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
+                    <div className="bottom-wrap">
+                      <div className="box-review">
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
                       </div>
-                      <div class="team-img">
+                      <div className="team-img">
                         <img src="/images/home/testi-2-1.jpg" alt="Team" />
                       </div>
-                      <div class="content">
-                        <h3 class="box-title">Georgia Schaden</h3>
-                        <p class="text">Property owner</p>
+                      <div className="content">
+                        <h3 className="box-title">Georgia Schaden</h3>
+                        <p className="text">Property owner</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="testi-block style-2" dir="ltr">
-                    <div class="top-wrap">
-                      <div class="quote">
+                <div className="swiper-slide">
+                  <div className="testi-block style-2" dir="ltr">
+                    <div className="top-wrap">
+                      <div className="quote">
                         <img
                           src="assets/img/icon/testi-2quote.svg"
                           alt="quote"
                         />
                       </div>
                     </div>
-                    <div class="testi-content pe-xl-5 px-xl-5">
-                      <p class="box-text">
+                    <div className="testi-content pe-xl-5 px-xl-5">
+                      <p className="box-text">
                         “Tenax comitatus ambulo regnum eligo, conturbo vis
                         caelum cohors. Infit ustulo adoptio collum, speciosus
                         lumen soluta. Condico spiculum ratio, sopor conventus
@@ -96,39 +96,39 @@ const Testimonials = () => {
                         amo”
                       </p>
                     </div>
-                    <div class="bottom-wrap">
-                      <div class="box-review">
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
+                    <div className="bottom-wrap">
+                      <div className="box-review">
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
                       </div>
-                      <div class="team-img">
+                      <div className="team-img">
                         <img
                           src="assets/img/testimonial/testi-2-2.jpg"
                           alt="Team"
                         />
                       </div>
-                      <div class="content">
-                        <h3 class="box-title">Walter Deckow</h3>
-                        <p class="text">Property owner</p>
+                      <div className="content">
+                        <h3 className="box-title">Walter Deckow</h3>
+                        <p className="text">Property owner</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="testi-block style-2" dir="ltr">
-                    <div class="top-wrap">
-                      <div class="quote">
+                <div className="swiper-slide">
+                  <div className="testi-block style-2" dir="ltr">
+                    <div className="top-wrap">
+                      <div className="quote">
                         <img
                           src="assets/img/icon/testi-2quote.svg"
                           alt="quote"
                         />
                       </div>
                     </div>
-                    <div class="testi-content pe-xl-5 px-xl-5">
-                      <p class="box-text">
+                    <div className="testi-content pe-xl-5 px-xl-5">
+                      <p className="box-text">
                         “Contendo votum traho clamo statim suffragium numquam
                         teneo. Altus iudicium versor, perpetuus velum pax
                         vestigium carpo. Candidus firmamentum celo, voluptas
@@ -139,39 +139,39 @@ const Testimonials = () => {
                         adulescens perpetuus auxilium comes virga.”
                       </p>
                     </div>
-                    <div class="bottom-wrap">
-                      <div class="box-review">
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
+                    <div className="bottom-wrap">
+                      <div className="box-review">
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
                       </div>
-                      <div class="team-img">
+                      <div className="team-img">
                         <img
                           src="assets/img/testimonial/testi-2-1.jpg"
                           alt="Team"
                         />
                       </div>
-                      <div class="content">
-                        <h3 class="box-title">Carlos Bauch</h3>
-                        <p class="text">Property owner</p>
+                      <div className="content">
+                        <h3 className="box-title">Carlos Bauch</h3>
+                        <p className="text">Property owner</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="testi-block style-2" dir="ltr">
-                    <div class="top-wrap">
-                      <div class="quote">
+                <div className="swiper-slide">
+                  <div className="testi-block style-2" dir="ltr">
+                    <div className="top-wrap">
+                      <div className="quote">
                         <img
                           src="assets/img/icon/testi-2quote.svg"
                           alt="quote"
                         />
                       </div>
                     </div>
-                    <div class="testi-content pe-xl-5 px-xl-5">
-                      <p class="box-text">
+                    <div className="testi-content pe-xl-5 px-xl-5">
+                      <p className="box-text">
                         “Tenax comitatus ambulo regnum eligo, conturbo vis
                         caelum cohors. Infit ustulo adoptio collum, speciosus
                         lumen soluta. Condico spiculum ratio, sopor conventus
@@ -182,109 +182,109 @@ const Testimonials = () => {
                         Exemplum adnuo sponte voluntas radius caecus exsisto.”
                       </p>
                     </div>
-                    <div class="bottom-wrap">
-                      <div class="box-review">
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
+                    <div className="bottom-wrap">
+                      <div className="box-review">
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
+                        <i className="fa-sharp fa-solid fa-star"></i>
                       </div>
-                      <div class="team-img">
+                      <div className="team-img">
                         <img
                           src="assets/img/testimonial/testi-2-2.jpg"
                           alt="Team"
                         />
                       </div>
-                      <div class="content">
-                        <h3 class="box-title">Julia Era</h3>
-                        <p class="text">Property owner</p>
+                      <div className="content">
+                        <h3 className="box-title">Julia Era</h3>
+                        <p className="text">Property owner</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="slider-controller container-width">
+              <div className="slider-controller container-width">
                 <button
                   data-slider-prev="#testiSlide1"
-                  class="slider-arrow default  slider-prev"
+                  className="slider-arrow default  slider-prev"
                 >
-                  <i class="far fa-arrow-left"></i>
+                  <i className="far fa-arrow-left"></i>
                 </button>
                 <div
-                  class="slider-pagination style-2"
+                  className="slider-pagination style-2"
                   data-slider-id="#testiSlider1"
                 ></div>
                 <button
                   data-slider-next="#testiSlide1"
-                  class="slider-arrow default  slider-next"
+                  className="slider-arrow default  slider-next"
                 >
-                  <i class="far fa-arrow-right"></i>
+                  <i className="far fa-arrow-right"></i>
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="testi-bottom-review-wrap">
-              <div class="testi-bottom-item">
-                <div class="trust-content">
-                  <div class="icon">
+        <div className="row">
+          <div className="col-12">
+            <div className="testi-bottom-review-wrap">
+              <div className="testi-bottom-item">
+                <div className="trust-content">
+                  <div className="icon">
                     <img src="/images/icons/star-icon.svg" alt="img" />
                   </div>
-                  <h4 class="box-title">Trustipilot</h4>
+                  <h4 className="box-title">Trustipilot</h4>
                 </div>
-                <div class="bottom">
-                  <div class="avatar">
+                <div className="bottom">
+                  <div className="avatar">
                     <img
                       src="/images/home/heror-1-avator-group.png"
                       alt="img"
                     />
                   </div>
-                  <div class="content">
-                    <div class="th-social">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
+                  <div className="content">
+                    <div className="th-social">
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
                     </div>
-                    <h4 class="review-title">
-                      <span class="number">
-                        <span class="counter-number">19</span>k+
+                    <h4 className="review-title">
+                      <span className="number">
+                        <span className="counter-number">19</span>k+
                       </span>{" "}
                       clients
                     </h4>
                   </div>
                 </div>
               </div>
-              <div class="divider"></div>
-              <div class="testi-bottom-item">
-                <div class="trust-content">
-                  <div class="icon">
+              <div className="divider"></div>
+              <div className="testi-bottom-item">
+                <div className="trust-content">
+                  <div className="icon">
                     <img src="/images/icons/google-icon.svg" alt="img" />
                   </div>
-                  <h4 class="box-title">Google</h4>
+                  <h4 className="box-title">Google</h4>
                 </div>
-                <div class="bottom">
-                  <div class="avatar">
+                <div className="bottom">
+                  <div className="avatar">
                     <img
                       src="/images/home/heror-1-avator-group-2.png"
                       alt="img"
                     />
                   </div>
-                  <div class="content">
-                    <div class="th-social">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
+                  <div className="content">
+                    <div className="th-social">
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
                     </div>
-                    <h4 class="review-title">
-                      <span class="number">
-                        <span class="counter-number">25</span>k+
+                    <h4 className="review-title">
+                      <span className="number">
+                        <span className="counter-number">25</span>k+
                       </span>{" "}
                       clients
                     </h4>

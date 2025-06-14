@@ -2,87 +2,97 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div class="sticky-wrapper">
-      <div class="menu-area">
-        <div class="container th-container3">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-auto">
-              <div class="header-logo">
+    <div className="sticky-wrapper">
+      <div className="menu-area">
+        <div className="container th-container3">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-auto">
+              <div className="header-logo">
                 <a href="index.html">
                   <img src="/images/logos/logo.svg" alt="Piller-html" />
                 </a>
               </div>
             </div>
-            <div class="col-auto">
-              <nav class="main-menu d-none d-lg-inline-block">
+            <div className="col-auto">
+              <nav className="main-menu d-none d-lg-inline-block">
                 <ul>
-                  <li class="menu-item-has-children active">
+                  <li className="menu-item-has-children active">
                     <a href="index.html">Home</a>
-                    <ul class="mega-menu mega-menu-content allow-natural-scroll">
+                    <ul className="mega-menu mega-menu-content allow-natural-scroll">
                       <li>
-                        <div class="container">
-                          <div class="row gy-4">
-                            <div class="col-lg-4">
-                              <div class="mega-menu-box">
-                                <div class="mega-menu-img">
+                        <div className="container">
+                          <div className="row gy-4">
+                            <div className="col-lg-4">
+                              <div className="mega-menu-box">
+                                <div className="mega-menu-img">
                                   <img
                                     src="assets/img/pages/index.jpg"
                                     alt="Home One"
                                   />
-                                  <div class="btn-wrap">
-                                    <a href="index.html" class="th-btn radius">
+                                  <div className="btn-wrap">
+                                    <a
+                                      href="index.html"
+                                      className="th-btn radius"
+                                    >
                                       View Demo
                                     </a>
                                   </div>
                                 </div>
-                                <h3 class="mega-menu-title">
+                                <h3 className="mega-menu-title">
                                   <a href="index.html">
                                     {" "}
-                                    <span class="text-theme">01.</span> Home
+                                    <span className="text-theme">01.</span> Home
                                     Real Estate{" "}
                                   </a>
                                 </h3>
                               </div>
                             </div>
-                            <div class="col-lg-4">
-                              <div class="mega-menu-box">
-                                <div class="mega-menu-img">
+                            <div className="col-lg-4">
+                              <div className="mega-menu-box">
+                                <div className="mega-menu-img">
                                   <img
                                     src="assets/img/pages/home-2.jpg"
                                     alt="Home Two"
                                   />
-                                  <div class="btn-wrap">
-                                    <a href="home-2.html" class="th-btn radius">
+                                  <div className="btn-wrap">
+                                    <a
+                                      href="home-2.html"
+                                      className="th-btn radius"
+                                    >
                                       View Demo
                                     </a>
                                   </div>
                                 </div>
-                                <h3 class="mega-menu-title">
+                                <h3 className="mega-menu-title">
                                   <a href="home-2.html">
                                     {" "}
-                                    <span class="text-theme">02.</span> Home
+                                    <span className="text-theme">02.</span> Home
                                     Property
                                   </a>
                                 </h3>
                               </div>
                             </div>
-                            <div class="col-lg-4">
-                              <div class="mega-menu-box">
-                                <div class="mega-menu-img">
+                            <div className="col-lg-4">
+                              <div className="mega-menu-box">
+                                <div className="mega-menu-img">
                                   <img
                                     src="assets/img/pages/home-3.jpg"
                                     alt="Home Three"
                                   />
-                                  <div class="btn-wrap">
-                                    <a href="home-3.html" class="th-btn radius">
+                                  <div className="btn-wrap">
+                                    <a
+                                      href="home-3.html"
+                                      className="th-btn radius"
+                                    >
                                       View Demo
                                     </a>
                                   </div>
                                 </div>
-                                <h3 class="mega-menu-title">
+                                <h3 className="mega-menu-title">
                                   <a href="home-3.html">
                                     {" "}
-                                    <span class="text-theme">03.</span> Home Map
+                                    <span className="text-theme">03.</span> Home
+                                    Map
                                   </a>
                                 </h3>
                               </div>
@@ -95,9 +105,9 @@ const Header = () => {
                   <li>
                     <a href="about.html">About Us</a>
                   </li>
-                  <li class="menu-item-has-children">
+                  <li className="menu-item-has-children">
                     <a href="#">Property</a>
-                    <ul class="sub-menu">
+                    <ul className="sub-menu">
                       <li>
                         <a href="property.html">Properties</a>
                       </li>
@@ -106,9 +116,9 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
-                  <li class="menu-item-has-children">
+                  <li className="menu-item-has-children">
                     <a href="#">Agencies</a>
-                    <ul class="sub-menu">
+                    <ul className="sub-menu">
                       <li>
                         <a href="agency.html">Agencies </a>
                       </li>
@@ -117,12 +127,12 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
-                  <li class="menu-item-has-children">
+                  <li className="menu-item-has-children">
                     <a href="#">Pages</a>
-                    <ul class="sub-menu">
-                      <li class="menu-item-has-children">
+                    <ul className="sub-menu">
+                      <li className="menu-item-has-children">
                         <a href="#">Shop</a>
-                        <ul class="sub-menu">
+                        <ul className="sub-menu">
                           <li>
                             <a href="shop.html">Shop</a>
                           </li>
@@ -174,9 +184,9 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
-                  <li class="menu-item-has-children">
+                  <li className="menu-item-has-children">
                     <a href="#">Blog</a>
-                    <ul class="sub-menu">
+                    <ul className="sub-menu">
                       <li>
                         <a href="blog.html">Blog Grid</a>
                       </li>
@@ -200,16 +210,23 @@ const Header = () => {
                   </li>
                 </ul>
               </nav>
-              <button type="button" class="th-menu-toggle d-block d-lg-none">
-                <i class="far fa-bars"></i>
+              <button
+                type="button"
+                className="th-menu-toggle d-block d-lg-none"
+              >
+                <i className="far fa-bars"></i>
               </button>
             </div>
-            <div class="col-auto d-none d-xl-block">
-              <div class="header-button">
-                <a href="contact.html" class="th-btn bg-black pill">
-                  <i class="fa-regular fa-house-chimney me-2"></i> Add Listing{" "}
+            <div className="col-auto d-none d-xl-block">
+              <div className="header-button">
+                <a href="contact.html" className="th-btn bg-black pill">
+                  <i className="fa-regular fa-house-chimney me-2"></i> Add
+                  Listing{" "}
                 </a>
-                <button type="button" class="sidemenu-bar sideMenuInfo pill">
+                <button
+                  type="button"
+                  className="sidemenu-bar sideMenuInfo pill"
+                >
                   <span></span>
                   <span></span>
                   <span></span>

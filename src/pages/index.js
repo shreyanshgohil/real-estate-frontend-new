@@ -5,6 +5,7 @@ import FAQ from "@/components/Pages/Home/FAQ";
 import Hero from "@/components/Pages/Home/Hero";
 import LatestNews from "@/components/Pages/Home/LatestNews";
 import LatestProperties from "@/components/Pages/Home/LatestProperties";
+import PropertiesValues from "@/components/Pages/Home/PropertiesValues";
 import PropertyType from "@/components/Pages/Home/PropertyType";
 import Testimonials from "@/components/Pages/Home/Testimonials";
 import WhatWeDo from "@/components/Pages/Home/WhatWeDo";
@@ -18,6 +19,7 @@ const index = () => {
       <WhatWeDo />
       <LatestProperties />
       <ExploreCities />
+      <PropertiesValues />
       <Testimonials />
       <FAQ />
       <LatestNews />
