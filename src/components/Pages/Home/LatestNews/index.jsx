@@ -43,9 +43,8 @@ const LatestNews = () => {
             </div>
           </div>
         </div>
-        <div class="slider-area">
+        <div>
           <Swiper
-            className="th-slider has-shadow"
             slidesPerView={1}
             loop={true}
             autoplay={{
@@ -53,6 +52,7 @@ const LatestNews = () => {
               disableOnInteraction: false,
             }}
             pagination={false}
+            navigation={false}
             spaceBetween={24}
             modules={[Autoplay]}
             id="blogSlider1"
@@ -65,7 +65,7 @@ const LatestNews = () => {
               },
             }}
           >
-            <SwiperSlide class="swiper-slide">
+            <SwiperSlide>
               <div class="blog-card">
                 <div class="blog-img">
                   <a href="blog-details.html">
