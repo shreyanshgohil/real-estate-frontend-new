@@ -7,9 +7,10 @@ const ExploreCities = () => {
     <div className="gallery-sec-2 overflow-hidden bg-smoke space overflow-hidden">
       <div
         className="shape-mockup moving d-none d-md-block"
-        style={{ top: "12%", left: "7%" }}
+        data-top="12%"
+        data-left="7%"
       >
-        <img src="assets/img/shape/gallery-sec-1-left.png" alt="img" />
+        <img src="/images/home/gallery-sec-1-left.png" alt="img" />
       </div>
       <div className="container">
         <div className="row justify-content-center">
@@ -42,236 +43,244 @@ const ExploreCities = () => {
         </div>
         <div className="gallery-2-slider-wrap">
           <div className="slider-area">
-            <div
+            <Swiper
               className="swiper th-slider has-shadow gallery-1"
-              id="gallerySlider1"
-              data-slider-options='{"centeredSlides":false,"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'
+              centeredSlides={false}
+              loop={true}
+              spaceBetween={24}
+              breakpoints={{
+                0: { slidesPerView: 1 },
+                576: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 },
+                1200: { slidesPerView: 3 },
+                1400: { slidesPerView: 4 },
+              }}
             >
-              <div className="swiper-wrapper">
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-1.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">250 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                London, United Kngdom
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-1.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">250 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              London, United Kngdom
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </SwiperSlide>
 
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-2.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">135 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                New Jersey, New York
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-2.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">135 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              New Jersey, New York
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </SwiperSlide>
 
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-3.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">225 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                Cape Town, South Africa
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-3.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">225 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              Cape Town, South Africa
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </SwiperSlide>
 
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-4.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">143 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                Los Angeles, New York
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-4.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">143 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              Los Angeles, New York
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </SwiperSlide>
 
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-5.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">321 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                Seoul, South Korea
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-5.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">321 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              Seoul, South Korea
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </SwiperSlide>
 
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-6.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">212 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                Seoul, South Korea
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-6.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">212 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              Seoul, South Korea
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </SwiperSlide>
 
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-7.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">432 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                London, United Kngdom
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-7.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">432 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              London, United Kngdom
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </SwiperSlide>
 
-                <div className="swiper-slide">
-                  <div className="gallery-card style-2">
-                    <div className="gallery-img">
-                      <img
-                        src="assets/img/gallery/gallery-2-8.jpg"
-                        alt="gallery image"
-                      />
-                      <div className="gallery-content">
-                        <div className="gallery-content-wrapper">
-                          <div className="left-content">
-                            <p className="box-text">211 Properties</p>
-                            <h2 className="box-title">
-                              <a href="property-details.html">
-                                New Jersey, New York
-                              </a>
-                            </h2>
-                          </div>
-                          <div className="link">
+              <SwiperSlide className="swiper-slide">
+                <div className="gallery-card style-2">
+                  <div className="gallery-img">
+                    <img
+                      src="/images/gallery/gallery-2-8.jpg"
+                      alt="gallery image"
+                    />
+                    <div className="gallery-content">
+                      <div className="gallery-content-wrapper">
+                        <div className="left-content">
+                          <p className="box-text">211 Properties</p>
+                          <h2 className="box-title">
                             <a href="property-details.html">
-                              <i className="far fa-arrow-right"></i>{" "}
+                              New Jersey, New York
                             </a>
-                          </div>
+                          </h2>
+                        </div>
+                        <div className="link">
+                          <a href="property-details.html">
+                            <i className="far fa-arrow-right"></i>{" "}
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </SwiperSlide>
+
               <button
                 data-slider-prev="#gallerySlider1"
                 className="slider-arrow slider-prev style2"
@@ -284,7 +293,7 @@ const ExploreCities = () => {
               >
                 <i className="far fa-arrow-right"></i>
               </button>
-            </div>
+            </Swiper>
           </div>
         </div>
       </div>
