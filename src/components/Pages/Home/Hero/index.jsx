@@ -9,7 +9,7 @@ const Hero = () => {
 
       if (parts.length) {
         parts.forEach((item, i) => {
-          inject += `<span className="${klass}${i + 1}">${item}</span>${after}`;
+          inject += `<span class="${klass}${i + 1}">${item}</span>${after}`;
         });
         element.innerHTML = inject;
       }
