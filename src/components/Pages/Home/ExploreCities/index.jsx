@@ -1,7 +1,5 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-
+import "swiper/css";
 const ExploreCities = () => {
   return (
     <div className="gallery-sec-2 overflow-hidden bg-smoke space overflow-hidden">
