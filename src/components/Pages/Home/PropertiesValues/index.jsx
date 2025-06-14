@@ -31,7 +31,7 @@ const PropertiesValues = () => {
             <div className="property-values-2-item">
               <div className="thumb">
                 <img
-                  src="assets/img/property-values/property-values-2-1.jpg"
+                  src="/images/property-values/property-values-2-1.jpg"
                   alt="img"
                 />
                 <div className="plus-icon">
@@ -59,7 +59,7 @@ const PropertiesValues = () => {
             <div className="property-values-2-item ">
               <div className="thumb">
                 <img
-                  src="assets/img/property-values/property-values-2-2.jpg"
+                  src="/images/property-values/property-values-2-2.jpg"
                   alt="img"
                 />
                 <div className="plus-icon">
@@ -83,7 +83,7 @@ const PropertiesValues = () => {
               </div>
               <div className="thumb">
                 <img
-                  src="assets/img/property-values/property-values-2-3.jpg"
+                  src="/images/property-values/property-values-2-3.jpg"
                   alt="img"
                 />
                 <div className="plus-icon">
@@ -111,7 +111,7 @@ const PropertiesValues = () => {
             <div className="property-values-2-item">
               <div className="thumb">
                 <img
-                  src="assets/img/property-values/property-values-2-4.jpg"
+                  src="/images/property-values/property-values-2-4.jpg"
                   alt="img"
                 />
                 <div className="plus-icon">

@@ -179,7 +179,7 @@
           display: none;
         }
       }
-      &:after:last-child {
+      &::after {
         display: none;
       }
     }
