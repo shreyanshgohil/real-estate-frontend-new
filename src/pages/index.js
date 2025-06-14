@@ -5,6 +5,7 @@ import FAQ from "@/components/Pages/Home/FAQ";
 import Hero from "@/components/Pages/Home/Hero";
 import LatestNews from "@/components/Pages/Home/LatestNews";
 import LatestProperties from "@/components/Pages/Home/LatestProperties";
+import PillarAgents from "@/components/Pages/Home/PillarAgents";
 import PropertiesValues from "@/components/Pages/Home/PropertiesValues";
 import PropertyType from "@/components/Pages/Home/PropertyType";
 import Testimonials from "@/components/Pages/Home/Testimonials";
@@ -20,6 +21,7 @@ const index = () => {
       <LatestProperties />
       <ExploreCities />
       <PropertiesValues />
+      <PillarAgents />
       <Testimonials />
       <FAQ />
       <LatestNews />
