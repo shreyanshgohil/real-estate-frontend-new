@@ -1,5 +1,7 @@
 import React from "react";
-
+import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 const FeaturedPropertiesLarge = () => {
   return (
     <section className="popular-sec-1 space overflow-hidden bg-smoke">
@@ -36,300 +38,297 @@ const FeaturedPropertiesLarge = () => {
           </div>
         </div>
         <div className="slider-area">
-          <div
+          <Swiper
             className="swiper th-slider has-shadow"
-            id="featuresSlider"
-            data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"2"},"1400":{"slidesPerView":"2"}}, "autoplay": "true", "autoHeight": "true","spaceBetween":60}'
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              576: { slidesPerView: 1 },
+              768: { slidesPerView: 1 },
+              992: { slidesPerView: 1 },
+              1200: { slidesPerView: 2 },
+              1400: { slidesPerView: 2 },
+            }}
+            autoplay={{
+              delay: 3000, // you can adjust this delay
+              disableOnInteraction: false,
+            }}
+            autoHeight={true}
+            spaceBetween={60}
+            modules={[Autoplay]}
           >
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <div className="popular-list-1 style-2">
-                  <div className="thumb-wrapper">
-                    <img src="/images/popular/feature-1-1.jpg" alt="Image" />
-                    <div className="popular-badge">
-                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
-                      <p>For Sale</p>
+            <SwiperSlide className="swiper-slide">
+              <div className="popular-list-1 style-2">
+                <div className="thumb-wrapper">
+                  <img src="/images/popular/feature-1-1.jpg" alt="Image" />
+                  <div className="popular-badge">
+                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <p>For Sale</p>
+                  </div>
+                </div>
+                <div className="property-content">
+                  <div className="media-body">
+                    <h3 className="box-title">
+                      {" "}
+                      <a href="property-details.html">Seaside Villa 5078</a>
+                    </h3>
+                    <div className="box-text">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/popular-location.svg"
+                          alt="icon"
+                        />
+                      </div>{" "}
+                      39581 Rohan Estates, New York
                     </div>
                   </div>
-                  <div className="property-content">
-                    <div className="media-body">
-                      <h3 className="box-title">
-                        {" "}
-                        <a href="property-details.html">Seaside Villa 5078</a>
-                      </h3>
-                      <div className="box-text">
-                        <div className="icon">
-                          <img
-                            src="/images/icons/popular-location.svg"
-                            alt="icon"
-                          />
-                        </div>{" "}
-                        39581 Rohan Estates, New York
-                      </div>
-                    </div>
 
-                    <ul className="property-featured">
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bed.svg" alt="icon" />
-                        </div>
-                        Bed 4
-                      </li>
+                  <ul className="property-featured">
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bed.svg" alt="icon" />
+                      </div>
+                      Bed 4
+                    </li>
 
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bath.svg" alt="icon" />
-                        </div>
-                        Bath 2
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/sqft.svg" alt="icon" />
-                        </div>
-                        1500 sqft
-                      </li>
-                    </ul>
-                    <div className="property-bottom">
-                      <h6 className="box-title">$179,800.00</h6>
-                      <a
-                        className="th-btn sm style3 pill"
-                        href="property-details.html"
-                      >
-                        View More{" "}
-                      </a>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bath.svg" alt="icon" />
+                      </div>
+                      Bath 2
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/sqft.svg" alt="icon" />
+                      </div>
+                      1500 sqft
+                    </li>
+                  </ul>
+                  <div className="property-bottom">
+                    <h6 className="box-title">$179,800.00</h6>
+                    <a
+                      className="th-btn sm style3 pill"
+                      href="property-details.html"
+                    >
+                      View More{" "}
+                    </a>
+                  </div>
+                  <div className="agent-wrap">
+                    <div className="agent-thumb">
+                      <img src="/images/popular/agent-thumb-1.jpg" alt="img" />
                     </div>
-                    <div className="agent-wrap">
-                      <div className="agent-thumb">
-                        <img
-                          src="/images/popular/agent-thumb-1.jpg"
-                          alt="img"
-                        />
-                      </div>
-                      <div className="agent-content">
-                        <h4 className="box-title">Roberto Ankunding</h4>
-                        <p className="box-text">Sale Agent</p>
-                      </div>
+                    <div className="agent-content">
+                      <h4 className="box-title">Roberto Ankunding</h4>
+                      <p className="box-text">Sale Agent</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide">
-                <div className="popular-list-1 style-2">
-                  <div className="thumb-wrapper">
-                    <img src="/images/popular/feature-1-2.jpg" alt="Image" />
-                    <div className="popular-badge">
-                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
-                      <p>For Sale</p>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+              <div className="popular-list-1 style-2">
+                <div className="thumb-wrapper">
+                  <img src="/images/popular/feature-1-2.jpg" alt="Image" />
+                  <div className="popular-badge">
+                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <p>For Sale</p>
+                  </div>
+                </div>
+                <div className="property-content">
+                  <div className="media-body">
+                    <h3 className="box-title">
+                      {" "}
+                      <a href="property-details.html">Luxurious Modern Home</a>
+                    </h3>
+                    <div className="box-text">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/popular-location.svg"
+                          alt="icon"
+                        />
+                      </div>{" "}
+                      39581 Rohan Estates, New York
                     </div>
                   </div>
-                  <div className="property-content">
-                    <div className="media-body">
-                      <h3 className="box-title">
-                        {" "}
-                        <a href="property-details.html">
-                          Luxurious Modern Home
-                        </a>
-                      </h3>
-                      <div className="box-text">
-                        <div className="icon">
-                          <img
-                            src="/images/icons/popular-location.svg"
-                            alt="icon"
-                          />
-                        </div>{" "}
-                        39581 Rohan Estates, New York
-                      </div>
-                    </div>
 
-                    <ul className="property-featured">
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bed.svg" alt="icon" />
-                        </div>
-                        Bed 4
-                      </li>
+                  <ul className="property-featured">
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bed.svg" alt="icon" />
+                      </div>
+                      Bed 4
+                    </li>
 
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bath.svg" alt="icon" />
-                        </div>
-                        Bath 2
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/sqft.svg" alt="icon" />
-                        </div>
-                        1500 sqft
-                      </li>
-                    </ul>
-                    <div className="property-bottom">
-                      <h6 className="box-title">$335,800.00</h6>
-                      <a
-                        className="th-btn sm style3 pill"
-                        href="property-details.html"
-                      >
-                        View More{" "}
-                      </a>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bath.svg" alt="icon" />
+                      </div>
+                      Bath 2
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/sqft.svg" alt="icon" />
+                      </div>
+                      1500 sqft
+                    </li>
+                  </ul>
+                  <div className="property-bottom">
+                    <h6 className="box-title">$335,800.00</h6>
+                    <a
+                      className="th-btn sm style3 pill"
+                      href="property-details.html"
+                    >
+                      View More{" "}
+                    </a>
+                  </div>
+                  <div className="agent-wrap">
+                    <div className="agent-thumb">
+                      <img src="/images/popular/agent-thumb-2.jpg" alt="img" />
                     </div>
-                    <div className="agent-wrap">
-                      <div className="agent-thumb">
-                        <img
-                          src="/images/popular/agent-thumb-2.jpg"
-                          alt="img"
-                        />
-                      </div>
-                      <div className="agent-content">
-                        <h4 className="box-title">Walter Deckow</h4>
-                        <p className="box-text">Sale Agent</p>
-                      </div>
+                    <div className="agent-content">
+                      <h4 className="box-title">Walter Deckow</h4>
+                      <p className="box-text">Sale Agent</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide">
-                <div className="popular-list-1 style-2">
-                  <div className="thumb-wrapper">
-                    <img src="/images/popular/feature-1-1.jpg" alt="Image" />
-                    <div className="popular-badge">
-                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
-                      <p>For Sale</p>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+              <div className="popular-list-1 style-2">
+                <div className="thumb-wrapper">
+                  <img src="/images/popular/feature-1-1.jpg" alt="Image" />
+                  <div className="popular-badge">
+                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <p>For Sale</p>
+                  </div>
+                </div>
+                <div className="property-content">
+                  <div className="media-body">
+                    <h3 className="box-title">
+                      {" "}
+                      <a href="property-details.html">Cozy Cottage</a>
+                    </h3>
+                    <div className="box-text">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/popular-location.svg"
+                          alt="icon"
+                        />
+                      </div>{" "}
+                      39581 Rohan Estates, New York
                     </div>
                   </div>
-                  <div className="property-content">
-                    <div className="media-body">
-                      <h3 className="box-title">
-                        {" "}
-                        <a href="property-details.html">Cozy Cottage</a>
-                      </h3>
-                      <div className="box-text">
-                        <div className="icon">
-                          <img
-                            src="/images/icons/popular-location.svg"
-                            alt="icon"
-                          />
-                        </div>{" "}
-                        39581 Rohan Estates, New York
-                      </div>
-                    </div>
 
-                    <ul className="property-featured">
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bed.svg" alt="icon" />
-                        </div>
-                        Bed 4
-                      </li>
+                  <ul className="property-featured">
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bed.svg" alt="icon" />
+                      </div>
+                      Bed 4
+                    </li>
 
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bath.svg" alt="icon" />
-                        </div>
-                        Bath 2
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/sqft.svg" alt="icon" />
-                        </div>
-                        1500 sqft
-                      </li>
-                    </ul>
-                    <div className="property-bottom">
-                      <h6 className="box-title">$250,800.00</h6>
-                      <a
-                        className="th-btn sm style3 pill"
-                        href="property-details.html"
-                      >
-                        View More{" "}
-                      </a>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bath.svg" alt="icon" />
+                      </div>
+                      Bath 2
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/sqft.svg" alt="icon" />
+                      </div>
+                      1500 sqft
+                    </li>
+                  </ul>
+                  <div className="property-bottom">
+                    <h6 className="box-title">$250,800.00</h6>
+                    <a
+                      className="th-btn sm style3 pill"
+                      href="property-details.html"
+                    >
+                      View More{" "}
+                    </a>
+                  </div>
+                  <div className="agent-wrap">
+                    <div className="agent-thumb">
+                      <img src="/images/popular/agent-thumb-1.jpg" alt="img" />
                     </div>
-                    <div className="agent-wrap">
-                      <div className="agent-thumb">
-                        <img
-                          src="/images/popular/agent-thumb-1.jpg"
-                          alt="img"
-                        />
-                      </div>
-                      <div className="agent-content">
-                        <h4 className="box-title">Roberto Ankunding</h4>
-                        <p className="box-text">Sale Agent</p>
-                      </div>
+                    <div className="agent-content">
+                      <h4 className="box-title">Roberto Ankunding</h4>
+                      <p className="box-text">Sale Agent</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide">
-                <div className="popular-list-1 style-2">
-                  <div className="thumb-wrapper">
-                    <img src="/images/popular/feature-1-2.jpg" alt="Image" />
-                    <div className="popular-badge">
-                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
-                      <p>For Sale</p>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+              <div className="popular-list-1 style-2">
+                <div className="thumb-wrapper">
+                  <img src="/images/popular/feature-1-2.jpg" alt="Image" />
+                  <div className="popular-badge">
+                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <p>For Sale</p>
+                  </div>
+                </div>
+                <div className="property-content">
+                  <div className="media-body">
+                    <h3 className="box-title">
+                      {" "}
+                      <a href="property-details.html">Modern Beach House</a>
+                    </h3>
+                    <div className="box-text">
+                      <div className="icon">
+                        <img
+                          src="/images/icons/popular-location.svg"
+                          alt="icon"
+                        />
+                      </div>{" "}
+                      39581 Rohan Estates, New York
                     </div>
                   </div>
-                  <div className="property-content">
-                    <div className="media-body">
-                      <h3 className="box-title">
-                        {" "}
-                        <a href="property-details.html">Modern Beach House</a>
-                      </h3>
-                      <div className="box-text">
-                        <div className="icon">
-                          <img
-                            src="/images/icons/popular-location.svg"
-                            alt="icon"
-                          />
-                        </div>{" "}
-                        39581 Rohan Estates, New York
-                      </div>
-                    </div>
 
-                    <ul className="property-featured">
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bed.svg" alt="icon" />
-                        </div>
-                        Bed 4
-                      </li>
+                  <ul className="property-featured">
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bed.svg" alt="icon" />
+                      </div>
+                      Bed 4
+                    </li>
 
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/bath.svg" alt="icon" />
-                        </div>
-                        Bath 2
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <img src="/images/icons/sqft.svg" alt="icon" />
-                        </div>
-                        1500 sqft
-                      </li>
-                    </ul>
-                    <div className="property-bottom">
-                      <h6 className="box-title">$189,800.00</h6>
-                      <a
-                        className="th-btn sm style3 pill"
-                        href="property-details.html"
-                      >
-                        View More{" "}
-                      </a>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/bath.svg" alt="icon" />
+                      </div>
+                      Bath 2
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <img src="/images/icons/sqft.svg" alt="icon" />
+                      </div>
+                      1500 sqft
+                    </li>
+                  </ul>
+                  <div className="property-bottom">
+                    <h6 className="box-title">$189,800.00</h6>
+                    <a
+                      className="th-btn sm style3 pill"
+                      href="property-details.html"
+                    >
+                      View More{" "}
+                    </a>
+                  </div>
+                  <div className="agent-wrap">
+                    <div className="agent-thumb">
+                      <img src="/images/popular/agent-thumb-2.jpg" alt="img" />
                     </div>
-                    <div className="agent-wrap">
-                      <div className="agent-thumb">
-                        <img
-                          src="/images/popular/agent-thumb-2.jpg"
-                          alt="img"
-                        />
-                      </div>
-                      <div className="agent-content">
-                        <h4 className="box-title">Walter Deckow</h4>
-                        <p className="box-text">Sale Agent</p>
-                      </div>
+                    <div className="agent-content">
+                      <h4 className="box-title">Walter Deckow</h4>
+                      <p className="box-text">Sale Agent</p>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </SwiperSlide>
+          </Swiper>
 
           <button
             data-slider-prev="#featuresSlider"
