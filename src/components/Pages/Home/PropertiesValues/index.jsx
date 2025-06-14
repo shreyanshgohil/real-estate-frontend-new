@@ -2,21 +2,21 @@ import React from "react";
 
 const PropertiesValues = () => {
   return (
-    <section class="property-values-sec-2  space overflow-hidden">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-7">
-            <div class="title-area text-center">
+    <section className="property-values-sec-2  space overflow-hidden">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-xl-7">
+            <div className="title-area text-center">
               <p
-                class="sub-title fadeinup wow"
+                className="sub-title fadeinup wow"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.1s"
               >
                 {" "}
-                <span class="double-line"></span> Properties Values{" "}
+                <span className="double-line"></span> Properties Values{" "}
               </p>
               <h2
-                class="sec-title fadeinup wow"
+                className="sec-title fadeinup wow"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.3s"
               >
@@ -26,97 +26,109 @@ const PropertiesValues = () => {
             </div>
           </div>
         </div>
-        <div class="row gy-4 justify-content-center align-items-center">
-          <div class="col-lg-4 col-md-12">
-            <div class="property-values-2-item">
-              <div class="thumb">
+        <div className="row gy-4 justify-content-center align-items-center">
+          <div className="col-lg-4 col-md-12">
+            <div className="property-values-2-item">
+              <div className="thumb">
                 <img
                   src="assets/img/property-values/property-values-2-1.jpg"
                   alt="img"
                 />
-                <div class="plus-icon">
-                  <i class="fa-solid fa-plus"></i>
+                <div className="plus-icon">
+                  <i className="fa-solid fa-plus"></i>
                 </div>
-                <div class="hover-content">
-                  <h4 class="box-title">
+                <div className="hover-content">
+                  <h4 className="box-title">
                     <a href="property-details.html">Top Rated Villa</a>
                   </h4>
-                  <p class="box-text">
+                  <p className="box-text">
                     Find the very best villas with in-depth reviews and ratngs
                     from multiple experts.
                   </p>
-                  <a class="th-btn bg-theme pill" href="property-details.html">
+                  <a
+                    className="th-btn bg-theme pill"
+                    href="property-details.html"
+                  >
                     Search Villas
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-12">
-            <div class="property-values-2-item ">
-              <div class="thumb">
+          <div className="col-lg-4 col-md-12">
+            <div className="property-values-2-item ">
+              <div className="thumb">
                 <img
                   src="assets/img/property-values/property-values-2-2.jpg"
                   alt="img"
                 />
-                <div class="plus-icon">
-                  <i class="fa-solid fa-plus"></i>
+                <div className="plus-icon">
+                  <i className="fa-solid fa-plus"></i>
                 </div>
-                <div class="hover-content">
-                  <h4 class="box-title">
+                <div className="hover-content">
+                  <h4 className="box-title">
                     <a href="property-details.html">Royal Garden Estate</a>
                   </h4>
-                  <p class="box-text">
+                  <p className="box-text">
                     Find the very best villas with in-depth reviews and ratngs
                     from multiple experts.
                   </p>
-                  <a class="th-btn bg-theme pill" href="property-details.html">
+                  <a
+                    className="th-btn bg-theme pill"
+                    href="property-details.html"
+                  >
                     Search Villas
                   </a>
                 </div>
               </div>
-              <div class="thumb">
+              <div className="thumb">
                 <img
                   src="assets/img/property-values/property-values-2-3.jpg"
                   alt="img"
                 />
-                <div class="plus-icon">
-                  <i class="fa-solid fa-plus"></i>
+                <div className="plus-icon">
+                  <i className="fa-solid fa-plus"></i>
                 </div>
-                <div class="hover-content">
-                  <h4 class="box-title">
+                <div className="hover-content">
+                  <h4 className="box-title">
                     <a href="property-details.html">Low Rated Villa</a>
                   </h4>
-                  <p class="box-text">
+                  <p className="box-text">
                     Find the very best villas with in-depth reviews and ratngs
                     from multiple experts.
                   </p>
-                  <a class="th-btn bg-theme pill" href="property-details.html">
+                  <a
+                    className="th-btn bg-theme pill"
+                    href="property-details.html"
+                  >
                     Search Villas
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-12">
-            <div class="property-values-2-item">
-              <div class="thumb">
+          <div className="col-lg-4 col-md-12">
+            <div className="property-values-2-item">
+              <div className="thumb">
                 <img
                   src="assets/img/property-values/property-values-2-4.jpg"
                   alt="img"
                 />
-                <div class="plus-icon">
-                  <i class="fa-solid fa-plus"></i>
+                <div className="plus-icon">
+                  <i className="fa-solid fa-plus"></i>
                 </div>
-                <div class="hover-content">
-                  <h4 class="box-title">
+                <div className="hover-content">
+                  <h4 className="box-title">
                     <a href="property-details.html">Palm Grove Escape</a>
                   </h4>
-                  <p class="box-text">
+                  <p className="box-text">
                     Find the very best villas with in-depth reviews and ratngs
                     from multiple experts.
                   </p>
-                  <a class="th-btn bg-theme pill" href="property-details.html">
+                  <a
+                    className="th-btn bg-theme pill"
+                    href="property-details.html"
+                  >
                     Search Villas
                   </a>
                 </div>
