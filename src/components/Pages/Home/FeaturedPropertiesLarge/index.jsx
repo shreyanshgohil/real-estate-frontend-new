@@ -45,12 +45,9 @@ const FeaturedPropertiesLarge = () => {
               <div className="swiper-slide">
                 <div className="popular-list-1 style-2">
                   <div className="thumb-wrapper">
-                    <img src="assets/img/popular/feature-1-1.jpg" alt="Image" />
+                    <img src="/images/popular/feature-1-1.jpg" alt="Image" />
                     <div className="popular-badge">
-                      <img
-                        src="assets/img/icon/sell_rent_icon.svg"
-                        alt="icon"
-                      />
+                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                       <p>For Sale</p>
                     </div>
                   </div>
@@ -63,7 +60,7 @@ const FeaturedPropertiesLarge = () => {
                       <div className="box-text">
                         <div className="icon">
                           <img
-                            src="assets/img/icon/popular-location.svg"
+                            src="/images/icons/popular-location.svg"
                             alt="icon"
                           />
                         </div>{" "}
@@ -74,20 +71,20 @@ const FeaturedPropertiesLarge = () => {
                     <ul className="property-featured">
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bed.svg" alt="icon" />
+                          <img src="/images/icons/bed.svg" alt="icon" />
                         </div>
                         Bed 4
                       </li>
 
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bath.svg" alt="icon" />
+                          <img src="/images/icons/bath.svg" alt="icon" />
                         </div>
                         Bath 2
                       </li>
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/sqft.svg" alt="icon" />
+                          <img src="/images/icons/sqft.svg" alt="icon" />
                         </div>
                         1500 sqft
                       </li>
@@ -104,7 +101,7 @@ const FeaturedPropertiesLarge = () => {
                     <div className="agent-wrap">
                       <div className="agent-thumb">
                         <img
-                          src="assets/img/popular/agent-thumb-1.jpg"
+                          src="/images/popular/agent-thumb-1.jpg"
                           alt="img"
                         />
                       </div>
@@ -119,12 +116,9 @@ const FeaturedPropertiesLarge = () => {
               <div className="swiper-slide">
                 <div className="popular-list-1 style-2">
                   <div className="thumb-wrapper">
-                    <img src="assets/img/popular/feature-1-2.jpg" alt="Image" />
+                    <img src="/images/popular/feature-1-2.jpg" alt="Image" />
                     <div className="popular-badge">
-                      <img
-                        src="assets/img/icon/sell_rent_icon.svg"
-                        alt="icon"
-                      />
+                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                       <p>For Sale</p>
                     </div>
                   </div>
@@ -139,7 +133,7 @@ const FeaturedPropertiesLarge = () => {
                       <div className="box-text">
                         <div className="icon">
                           <img
-                            src="assets/img/icon/popular-location.svg"
+                            src="/images/icons/popular-location.svg"
                             alt="icon"
                           />
                         </div>{" "}
@@ -150,20 +144,20 @@ const FeaturedPropertiesLarge = () => {
                     <ul className="property-featured">
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bed.svg" alt="icon" />
+                          <img src="/images/icons/bed.svg" alt="icon" />
                         </div>
                         Bed 4
                       </li>
 
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bath.svg" alt="icon" />
+                          <img src="/images/icons/bath.svg" alt="icon" />
                         </div>
                         Bath 2
                       </li>
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/sqft.svg" alt="icon" />
+                          <img src="/images/icons/sqft.svg" alt="icon" />
                         </div>
                         1500 sqft
                       </li>
@@ -180,7 +174,7 @@ const FeaturedPropertiesLarge = () => {
                     <div className="agent-wrap">
                       <div className="agent-thumb">
                         <img
-                          src="assets/img/popular/agent-thumb-2.jpg"
+                          src="/images/popular/agent-thumb-2.jpg"
                           alt="img"
                         />
                       </div>
@@ -195,12 +189,9 @@ const FeaturedPropertiesLarge = () => {
               <div className="swiper-slide">
                 <div className="popular-list-1 style-2">
                   <div className="thumb-wrapper">
-                    <img src="assets/img/popular/feature-1-1.jpg" alt="Image" />
+                    <img src="/images/popular/feature-1-1.jpg" alt="Image" />
                     <div className="popular-badge">
-                      <img
-                        src="assets/img/icon/sell_rent_icon.svg"
-                        alt="icon"
-                      />
+                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                       <p>For Sale</p>
                     </div>
                   </div>
@@ -213,7 +204,7 @@ const FeaturedPropertiesLarge = () => {
                       <div className="box-text">
                         <div className="icon">
                           <img
-                            src="assets/img/icon/popular-location.svg"
+                            src="/images/icons/popular-location.svg"
                             alt="icon"
                           />
                         </div>{" "}
@@ -224,20 +215,20 @@ const FeaturedPropertiesLarge = () => {
                     <ul className="property-featured">
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bed.svg" alt="icon" />
+                          <img src="/images/icons/bed.svg" alt="icon" />
                         </div>
                         Bed 4
                       </li>
 
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bath.svg" alt="icon" />
+                          <img src="/images/icons/bath.svg" alt="icon" />
                         </div>
                         Bath 2
                       </li>
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/sqft.svg" alt="icon" />
+                          <img src="/images/icons/sqft.svg" alt="icon" />
                         </div>
                         1500 sqft
                       </li>
@@ -254,7 +245,7 @@ const FeaturedPropertiesLarge = () => {
                     <div className="agent-wrap">
                       <div className="agent-thumb">
                         <img
-                          src="assets/img/popular/agent-thumb-1.jpg"
+                          src="/images/popular/agent-thumb-1.jpg"
                           alt="img"
                         />
                       </div>
@@ -269,12 +260,9 @@ const FeaturedPropertiesLarge = () => {
               <div className="swiper-slide">
                 <div className="popular-list-1 style-2">
                   <div className="thumb-wrapper">
-                    <img src="assets/img/popular/feature-1-2.jpg" alt="Image" />
+                    <img src="/images/popular/feature-1-2.jpg" alt="Image" />
                     <div className="popular-badge">
-                      <img
-                        src="assets/img/icon/sell_rent_icon.svg"
-                        alt="icon"
-                      />
+                      <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                       <p>For Sale</p>
                     </div>
                   </div>
@@ -287,7 +275,7 @@ const FeaturedPropertiesLarge = () => {
                       <div className="box-text">
                         <div className="icon">
                           <img
-                            src="assets/img/icon/popular-location.svg"
+                            src="/images/icons/popular-location.svg"
                             alt="icon"
                           />
                         </div>{" "}
@@ -298,20 +286,20 @@ const FeaturedPropertiesLarge = () => {
                     <ul className="property-featured">
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bed.svg" alt="icon" />
+                          <img src="/images/icons/bed.svg" alt="icon" />
                         </div>
                         Bed 4
                       </li>
 
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/bath.svg" alt="icon" />
+                          <img src="/images/icons/bath.svg" alt="icon" />
                         </div>
                         Bath 2
                       </li>
                       <li>
                         <div className="icon">
-                          <img src="assets/img/icon/sqft.svg" alt="icon" />
+                          <img src="/images/icons/sqft.svg" alt="icon" />
                         </div>
                         1500 sqft
                       </li>
@@ -328,7 +316,7 @@ const FeaturedPropertiesLarge = () => {
                     <div className="agent-wrap">
                       <div className="agent-thumb">
                         <img
-                          src="assets/img/popular/agent-thumb-2.jpg"
+                          src="/images/popular/agent-thumb-2.jpg"
                           alt="img"
                         />
                       </div>
