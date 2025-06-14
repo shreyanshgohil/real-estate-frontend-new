@@ -54,7 +54,7 @@ const FeaturedPropertiesLarge = () => {
             }}
             autoHeight={true}
             spaceBetween={60}
-            modules={[Autoplay]}
+            // modules={[Autoplay]}
           >
             <SwiperSlide className="swiper-slide">
               <div className="popular-list-1 style-2">
