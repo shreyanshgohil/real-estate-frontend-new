@@ -1,8 +1,46 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 const PillarAgents = () => {
+  useEffect(() => {
+    // Background image
+    document.querySelectorAll("[data-bg-src]").forEach((el) => {
+      const src = el.getAttribute("data-bg-src");
+      el.style.backgroundImage = `url(${src})`;
+      el.removeAttribute("data-bg-src");
+      el.classList.add("background-image");
+    });
+
+    // Background color
+    document.querySelectorAll("[data-bg-color]").forEach((el) => {
+      const color = el.getAttribute("data-bg-color");
+      el.style.backgroundColor = color;
+      el.removeAttribute("data-bg-color");
+    });
+
+    // Theme color (CSS variable)
+    document.querySelectorAll("[data-theme-color]").forEach((el) => {
+      const color = el.getAttribute("data-theme-color");
+      el.style.setProperty("--theme-color", color);
+      el.removeAttribute("data-theme-color");
+    });
+
+    // Border color as CSS variable
+    document.querySelectorAll("[data-border]").forEach((el) => {
+      const borderColor = el.getAttribute("data-border");
+      el.style.setProperty("--th-border-color", borderColor);
+    });
+
+    // Mask image
+    document.querySelectorAll("[data-mask-src]").forEach((el) => {
+      const mask = el.getAttribute("data-mask-src");
+      el.style.maskImage = `url(${mask})`;
+      el.style.webkitMaskImage = `url(${mask})`; // For Safari
+      el.classList.add("bg-mask");
+      el.removeAttribute("data-mask-src");
+    });
+  }, []);
   return (
     <section className="team-area-1 space-bottom overflow-hidden">
       <div
@@ -41,6 +79,7 @@ const PillarAgents = () => {
             className="swiper th-slider has-shadow"
             id="teamSlider1"
             autoHeight={true}
+            spaceBetween={24}
             breakpoints={{
               0: { slidesPerView: 1 },
               576: { slidesPerView: 1 },
