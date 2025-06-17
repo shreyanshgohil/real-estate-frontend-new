@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import About from "@/components/Pages/Home/About";
+import About from "@/components/Common/About";
 import ExploreCities from "@/components/Pages/Home/ExploreCities";
 import FAQ from "@/components/Pages/Home/FAQ";
 import FeaturedPropertiesLarge from "@/components/Pages/Home/FeaturedPropertiesLarge";
