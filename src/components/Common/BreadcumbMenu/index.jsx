@@ -8,10 +8,10 @@ const BreadCumMenu = (props) => {
       className="breadcumb-wrapper "
       data-bg-src="/images/bg/breadcrumb-bg.jpg"
     >
-      <div class="container">
-        <div class="breadcumb-content">
-          <h1 class="breadcumb-title">{breadCumData.page}</h1>
-          <ul class="breadcumb-menu">
+      <div className="container">
+        <div className="breadcumb-content">
+          <h1 className="breadcumb-title">{breadCumData.page}</h1>
+          <ul className="breadcumb-menu">
             <li>
               <a href={breadCumData.baseUrl}>{breadCumData.base}</a>
             </li>

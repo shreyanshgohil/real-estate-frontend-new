@@ -71,10 +71,10 @@ const LatestProperties = () => {
             </div>
           </div>
         </div>
-        <div class="row gy-30 justify-content-center filter-active">
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+        <div className="row gy-30 justify-content-center filter-active">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -83,80 +83,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -166,39 +166,42 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -207,80 +210,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -290,39 +293,42 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -331,80 +337,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -414,39 +420,42 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -455,80 +464,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -538,39 +547,42 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -579,80 +591,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -662,39 +674,42 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -703,80 +718,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -786,39 +801,42 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -827,80 +845,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -910,39 +928,42 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-            <div class="popular-list-1">
-              <div class="thumb-wrapper">
+          <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
+            <div className="popular-list-1">
+              <div className="thumb-wrapper">
                 <Swiper
                   className="th-slider"
                   loop={false}
@@ -951,80 +972,80 @@ const LatestProperties = () => {
                   effect="fade"
                   modules={[EffectFade]}
                 >
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-1.jpg"
                     >
                       <img src="/images/popular/popular-1-1.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
-                  <SwiperSlide class="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <a
-                      class="popular-popup-image"
+                      className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
                       <img src="/images/popular/popular-1-2.jpg" alt="Image" />
                     </a>
                   </SwiperSlide>
 
-                  <div class="icon-wrap">
-                    <button class="slider-arrow slider-prev">
-                      <i class="far fa-arrow-left"></i>
+                  <div className="icon-wrap">
+                    <button className="slider-arrow slider-prev">
+                      <i className="far fa-arrow-left"></i>
                     </button>
-                    <button class="slider-arrow slider-next">
-                      <i class="far fa-arrow-right"></i>
+                    <button className="slider-arrow slider-next">
+                      <i className="far fa-arrow-right"></i>
                     </button>
                   </div>
                 </Swiper>
-                <div class="actions">
-                  <a href="wishlist.html" class="icon-btn">
-                    <i class="fas fa-heart"></i>
+                <div className="actions">
+                  <a href="wishlist.html" className="icon-btn">
+                    <i className="fas fa-heart"></i>
                   </a>
                 </div>
-                <div class="actions-style-2-wrapper">
-                  <div class="actions style-2">
-                    <a href="#" class="icon-btn">
-                      <span class="action-text">Add To Favorite</span>
-                      <i class="fa-solid fa-bookmark"></i>
+                <div className="actions-style-2-wrapper">
+                  <div className="actions style-2">
+                    <a href="#" className="icon-btn">
+                      <span className="action-text">Add To Favorite</span>
+                      <i className="fa-solid fa-bookmark"></i>
                     </a>
                     <a
                       href="/images/popular/popular-1-1.jpg"
-                      class="icon-btn popular-popup-image"
+                      className="icon-btn popular-popup-image"
                     >
-                      <span class="action-text">View all img</span>
-                      <i class="fa-solid fa-camera"></i>
+                      <span className="action-text">View all img</span>
+                      <i className="fa-solid fa-camera"></i>
                     </a>
                   </div>
                 </div>
-                <div class="popular-badge">
+                <div className="popular-badge">
                   <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
                   <p>For Sale</p>
                 </div>
               </div>
-              <div class="property-content">
-                <div class="media-body">
-                  <h3 class="box-title">
+              <div className="property-content">
+                <div className="media-body">
+                  <h3 className="box-title">
                     <a href="property-details.html">Charming Beach House</a>
                   </h3>
-                  <div class="box-text">
-                    <div class="icon">
+                  <div className="box-text">
+                    <div className="icon">
                       <img
                         src="/images/icons/popular-location.svg"
                         alt="icon"
@@ -1034,30 +1055,33 @@ const LatestProperties = () => {
                   </div>
                 </div>
 
-                <ul class="property-featured">
+                <ul className="property-featured">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bed.svg" alt="icon" />
                     </div>
                     Bed 4
                   </li>
 
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/bath.svg" alt="icon" />
                     </div>
                     Bath 2
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <img src="/images/icons/sqft.svg" alt="icon" />
                     </div>
                     1500 sqft
                   </li>
                 </ul>
-                <div class="property-bottom">
-                  <h6 class="box-title">$179,800.00</h6>
-                  <a class="th-btn sm style3 pill" href="property-details.html">
+                <div className="property-bottom">
+                  <h6 className="box-title">$179,800.00</h6>
+                  <a
+                    className="th-btn sm style3 pill"
+                    href="property-details.html"
+                  >
                     View More
                   </a>
                 </div>

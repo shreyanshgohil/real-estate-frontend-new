@@ -26,7 +26,7 @@ const Header = () => {
                               <div className="mega-menu-box">
                                 <div className="mega-menu-img">
                                   <img
-                                    src="assets/img/pages/index.jpg"
+                                    src="/images/pages/index.jpg"
                                     alt="Home One"
                                   />
                                   <div className="btn-wrap">
@@ -51,7 +51,7 @@ const Header = () => {
                               <div className="mega-menu-box">
                                 <div className="mega-menu-img">
                                   <img
-                                    src="assets/img/pages/home-2.jpg"
+                                    src="/images/pages/home-2.jpg"
                                     alt="Home Two"
                                   />
                                   <div className="btn-wrap">
@@ -76,7 +76,7 @@ const Header = () => {
                               <div className="mega-menu-box">
                                 <div className="mega-menu-img">
                                   <img
-                                    src="assets/img/pages/home-3.jpg"
+                                    src="/images/pages/home-3.jpg"
                                     alt="Home Three"
                                   />
                                   <div className="btn-wrap">
