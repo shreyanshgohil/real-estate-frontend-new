@@ -1,41 +1,6 @@
 import React, { useEffect } from "react";
 
 const WhatWeDo = () => {
-  useEffect(() => {
-    function shapeMockup(elements) {
-      elements.forEach(function (element) {
-        const shapeTop = element.getAttribute("data-top");
-        const shapeRight = element.getAttribute("data-right");
-        const shapeBottom = element.getAttribute("data-bottom");
-        const shapeLeft = element.getAttribute("data-left");
-
-        Object.assign(element.style, {
-          top: shapeTop,
-          right: shapeRight,
-          bottom: shapeBottom,
-          left: shapeLeft,
-        });
-
-        element.removeAttribute("data-top");
-        element.removeAttribute("data-right");
-        element.removeAttribute("data-bottom");
-        element.removeAttribute("data-left");
-
-        if (element.parentElement) {
-          element.parentElement.classList.add("shape-mockup-wrap");
-        }
-      });
-    }
-
-    // Initialize on DOMContentLoaded
-    // document.addEventListener("DOMContentLoaded", function () {
-    const shapeElements = document.querySelectorAll(".shape-mockup");
-
-    if (shapeElements.length > 0) {
-      shapeMockup(Array.from(shapeElements));
-    }
-    // });
-  }, []);
   return (
     <section className="why-sec-2 bg-smoke space" id="why-sec">
       <div

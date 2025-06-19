@@ -1,47 +1,4 @@
-import React, { useEffect } from "react";
-
 const About = () => {
-  useEffect(() => {
-    function injector(element, splitter, klass, after) {
-      const text = element.textContent;
-      const parts = text.split(splitter);
-      let inject = "";
-
-      if (parts.length) {
-        parts.forEach((item, i) => {
-          inject += `<span class="${klass}${i + 1}">${item}</span>${after}`;
-        });
-        element.innerHTML = inject;
-      }
-    }
-
-    const lettering = {
-      letters: function (elements) {
-        elements.forEach((el) => {
-          injector(el, "", "char", "");
-        });
-      },
-
-      words: function (elements) {
-        elements.forEach((el) => {
-          injector(el, " ", "word", " ");
-        });
-      },
-
-      lines: function (elements) {
-        const r = "eefec303079ad17405c889e092e105b0";
-        elements.forEach((el) => {
-          // Replace <br> tags with the hash
-          el.innerHTML = el.innerHTML.replace(/<br\s*\/?>/gi, r);
-          injector(el, r, "line", "");
-        });
-      },
-    };
-
-    // USAGE: Apply lettering to all elements with className "logo-animation"
-    const elements = Array.from(document.querySelectorAll(".logo-animation"));
-    lettering.letters(elements); // Equivalent to .lettering() or .lettering('letters')
-  }, []);
   return (
     <section
       className="about-1-wrapper space overflow-hidden shape-mockup-wrap"
