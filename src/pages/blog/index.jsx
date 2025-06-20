@@ -1,7 +1,8 @@
 import Layout from "@/components/Layout";
-import React from "react";
+import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import BlogGrid from "@/components/Pages/Blog/BlogGrid";
+import { animationMoving } from "@/utils/animation";
 const index = () => {
   const breadCumData = {
     title: "Blog Grid",
@@ -9,6 +10,9 @@ const index = () => {
     baseUrl: "/",
     base: "Home",
   };
+  useEffect(() => {
+    animationMoving();
+  }, []);
   return (
     <Layout>
       <BreadcumbMenu breadCumData={breadCumData} />

@@ -1,8 +1,9 @@
 import Layout from "@/components/Layout";
-import React from "react";
+import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import ContactArea from "@/components/Pages/Contact/ContactArea";
 import ContactForm from "@/components/Pages/Contact/ContactForm";
+import { animationMoving } from "@/utils/animation";
 const contact = () => {
   const breadCumData = {
     title: "Contact",
@@ -10,6 +11,10 @@ const contact = () => {
     baseUrl: "/",
     base: "Home",
   };
+
+  useEffect(() => {
+    animationMoving();
+  }, []);
   return (
     <Layout>
       <BreadcumbMenu breadCumData={breadCumData} />
