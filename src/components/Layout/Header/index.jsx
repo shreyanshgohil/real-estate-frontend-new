@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
             <div className="col-auto">
               <div className="header-logo">
                 <a href="index.html">
-                  <img src="/images/logos/logo.svg" alt="Piller-html" />
+                  <Image src="/images/logos/logo.svg" alt="Piller-html" width={199} height={44} />
                 </a>
               </div>
             </div>

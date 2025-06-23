@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useEffect } from "react";
 
 const WhatWeDo = () => {
@@ -7,10 +8,14 @@ const WhatWeDo = () => {
         className="shape-mockup jump d-none d-md-block"
         data-top="16%"
         data-right="7%"
-        // style={{ top: "20%", right: "7%" }}
-        // style="top: 20%; right: 5%;"
+        style={{ top: "16%", right: "7%" }}
       >
-        <img src="/images/home/why-2-shape.png" alt="img" />
+        <Image
+          src="/images/home/why-2-shape.png"
+          width={68}
+          height={78}
+          alt=""
+        />
       </div>
       <div className="container">
         <div className="row justify-content-center">
@@ -38,11 +43,21 @@ const WhatWeDo = () => {
           <div className="col-xl-4 col-lg-6 col-md-6 fadeinup wow">
             <div className="why-card-1 style-2">
               <div className="hover-icon">
-                <img src="/images/home/why-hover-icon-1.png" alt="img" />
+                <Image
+                  src="/images/home/why-hover-icon-1.png"
+                  alt=""
+                  width={461}
+                  height={222}
+                />
               </div>
               <h4 className="count">01</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-1.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-1.svg"
+                  width={48}
+                  height={48}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">Find your perfect new home</h3>
@@ -65,11 +80,21 @@ const WhatWeDo = () => {
           <div className="col-xl-4 col-lg-6 col-md-6 fadeinup wow">
             <div className="why-card-1 style-2">
               <div className="hover-icon">
-                <img src="/images/home/why-hover-icon-1.png" alt="img" />
+                <Image
+                  src="/images/home/why-hover-icon-1.png"
+                  alt=""
+                  width={461}
+                  height={222}
+                />
               </div>
               <h4 className="count">02</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-2.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-2.svg"
+                  height={48}
+                  width={48}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">You build wealth effortlessly </h3>
@@ -92,11 +117,21 @@ const WhatWeDo = () => {
           <div className="col-xl-4 col-lg-6 col-md-6 fadeinup wow">
             <div className="why-card-1 style-2">
               <div className="hover-icon">
-                <img src="/images/home/why-hover-icon-1.png" alt="img" />
+                <Image
+                  src="/images/home/why-hover-icon-1.png"
+                  alt=""
+                  width={461}
+                  height={222}
+                />
               </div>
               <h4 className="count">03</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-3.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-3.svg"
+                  width={48}
+                  height={48}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">

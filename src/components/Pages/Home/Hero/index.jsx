@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useEffect } from "react";
 
 const Hero = () => {
@@ -90,9 +91,11 @@ const Hero = () => {
                             placeholder="Find a location"
                           />
                           <div className="icon">
-                            <img
+                            <Image
                               src="/images/icons/location-icon.svg"
-                              alt="icon"
+                              alt=""
+                              width={17}
+                              height={17}
                             />
                           </div>
                         </div>
@@ -129,36 +132,45 @@ const Hero = () => {
                 >
                   <div className="property-type-item">
                     <div className="icon">
-                      <img
+                      <Image
                         src="/images/icons/property-item-icon-2-1.svg"
-                        alt="img"
+                        alt=""
+                        width={15}
+                        height={17}
                       />
                     </div>
                     <span>Penthouse</span>
                   </div>
                   <div className="property-type-item">
                     <div className="icon">
-                      <img
+                      <Image
+                        height={17}
+                        width={17}
                         src="/images/icons/property-item-icon-2-2.svg"
-                        alt="img"
+                        alt=""
                       />
                     </div>
                     <span>Townhouse</span>
                   </div>
                   <div className="property-type-item">
                     <div className="icon">
-                      <img
+                      <Image
                         src="/images/icons/property-item-icon-2-3.svg"
-                        alt="img"
+                        alt=""
+                        width={21}
+                        height={17}
                       />
                     </div>
                     <span>Villa</span>
                   </div>
                   <div className="property-type-item">
                     <div className="icon">
-                      <img
+                      <Image
                         src="/images/icons/property-item-icon-2-4.svg"
-                        alt="img"
+                        alt=""
+                        width={21}
+                        height={19}
+                        al
                       />
                     </div>
                     <span>Apartments</span>

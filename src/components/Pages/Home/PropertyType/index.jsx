@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image";
 const PropertyType = () => {
   return (
     <section
@@ -13,14 +14,24 @@ const PropertyType = () => {
         data-top="12%"
         data-left="7%"
       >
-        <img src="/images/home/category-1-left.png" alt="img" />
+        <Image
+          width={59}
+          height={73}
+          src="/images/home/category-1-left.png"
+          alt=""
+        />
       </div>
       <div
         className="shape-mockup jump d-none d-md-block"
         data-top="14%"
         data-right="2%"
       >
-        <img src="/images/home/category-1-right.png" alt="img" />
+        <Image
+          src="/images/home/category-1-right.png"
+          width={75}
+          height={86}
+          alt=""
+        />
       </div>
       <div className="container">
         <div className="title-area text-center mb-50">
@@ -78,9 +89,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_1.svg"
-                          alt="Image"
+                          alt=""
+                          height={40}
+                          width={40}
                         />
                       </div>
                       <h3 className="box-title">
@@ -94,9 +107,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_2.svg"
-                          alt="Image"
+                          alt=""
+                          height={40}
+                          width={40}
                         />
                       </div>
                       <h3 className="box-title">
@@ -110,9 +125,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_3.svg"
-                          alt="Image"
+                          width={44}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -126,9 +143,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_4.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -142,9 +161,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_5.svg"
-                          alt="Image"
+                          width={37}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -158,9 +179,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_6.svg"
-                          alt="Image"
+                          width={49}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -174,9 +197,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_1.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -190,9 +215,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_1.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -206,9 +233,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
+                          height={40}
+                          width={40}
                           src="/images/icons/category_card_2.svg"
-                          alt="Image"
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -222,9 +251,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_3.svg"
-                          alt="Image"
+                          width={44}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -238,9 +269,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_4.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -254,9 +287,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_5.svg"
-                          alt="Image"
+                          width={37}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -270,9 +305,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_6.svg"
-                          alt="Image"
+                          width={49}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -286,9 +323,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_1.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -302,9 +341,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_1.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -318,9 +359,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
+                          height={40}
+                          width={40}
                           src="/images/icons/category_card_2.svg"
-                          alt="Image"
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -334,9 +377,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_3.svg"
-                          alt="Image"
+                          width={44}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -350,9 +395,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_4.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -366,9 +413,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_5.svg"
-                          alt="Image"
+                          width={37}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -382,9 +431,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_6.svg"
-                          alt="Image"
+                          width={49}
+                          height={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">
@@ -398,9 +449,11 @@ const PropertyType = () => {
                   <div className="swiper-slide">
                     <div className="category-card">
                       <div className="box-icon">
-                        <img
+                        <Image
                           src="/images/icons/category_card_1.svg"
-                          alt="Image"
+                          height={40}
+                          width={40}
+                          alt=""
                         />
                       </div>
                       <h3 className="box-title">

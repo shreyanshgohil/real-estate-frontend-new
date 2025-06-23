@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -140,8 +141,10 @@ const Footer = () => {
                 <div className="footer-right-bottom-wrap">
                   <div className="footer-right-bottom-item">
                     <div className="footer-right-bottom-item__thumb help">
-                      <img
+                      <Image
                         src="/images/home/footer-default-icon-1-1.png"
+                        width={87}
+                        height={50}
                         alt="img"
                       />
                     </div>
@@ -153,7 +156,9 @@ const Footer = () => {
                   </div>
                   <div className="footer-right-bottom-item scan">
                     <div className="footer-right-bottom-item__thumb">
-                      <img
+                      <Image
+                        width={43}
+                        height={51}
                         src="/images/logos/footer-default-icon-1-2.png"
                         alt="img"
                       />
@@ -165,17 +170,21 @@ const Footer = () => {
                       </h4>
                     </div>
                     <div className="footer-right-bottom-item__right">
-                      <img
+                      <Image
                         src="/images/logos/footer-default-icon-1-2-scan.png"
                         alt="img"
+                        height={50}
+                        width={50}
                       />
                     </div>
                   </div>
                   <div className="footer-right-bottom-item scan">
                     <div className="footer-right-bottom-item__thumb">
-                      <img
+                      <Image
                         src="/images/logos/footer-default-icon-1-3.png"
                         alt="img"
+                        width={43}
+                        height={49}
                       />
                     </div>
                     <div className="footer-right-bottom-item__content">
@@ -187,9 +196,11 @@ const Footer = () => {
                       </h4>
                     </div>
                     <div className="footer-right-bottom-item__right">
-                      <img
+                      <Image
                         src="/images/logos/footer-default-icon-1-2-scan.png"
                         alt="img"
+                        height={50}
+                        width={50}
                       />
                     </div>
                   </div>

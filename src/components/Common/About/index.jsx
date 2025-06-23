@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <section
@@ -5,14 +7,24 @@ const About = () => {
       id="about-sec"
     >
       <div className="shape-mockup " data-bottom="0" data-left="0">
-        <img src="/images/home/about-2-shape.png" alt="img" />
+        <Image
+          src="/images/home/about-2-shape.png"
+          alt="img"
+          width={750}
+          height={526}
+        />
       </div>
       <div
         className="shape-mockup spin d-none d-lg-block"
         data-bottom="11%"
         data-left="5%"
       >
-        <img src="/images/home/circle-start.png" alt="img" />
+        <Image
+          src="/images/home/circle-start.png"
+          height={70}
+          width={70}
+          alt="img"
+        />
       </div>
       <div className="container">
         <div className="row gy-40 gx-70 justify-content-center">
@@ -25,7 +37,12 @@ const About = () => {
               <div className="about-logo-wrap-2">
                 <div className="logo-icon-wrap">
                   <div className="logo-icon">
-                    <img src="/images/home/logo-circle-icon.png" alt="img" />
+                    <Image
+                      src="/images/home/logo-circle-icon.png"
+                      alt="logo"
+                      width={49}
+                      height={34}
+                    />
                   </div>
                   <div className="logo-icon-wrap__text">
                     <span className="logo-animation">
@@ -36,25 +53,47 @@ const About = () => {
               </div>
               <div className="about-left">
                 <div className="img-box">
-                  <img src="/images/home/about-1-left-1.jpg" alt="Image" />
+                  <Image
+                    src="/images/home/about-1-left-1.jpg"
+                    width={215}
+                    height={225}
+                    alt="Image"
+                  />
                 </div>
                 <div className="img-box small">
-                  <img src="/images/home/about-1-left-2.jpg" alt="Image" />
+                  <Image
+                    src="/images/home/about-1-left-2.jpg"
+                    alt="Image"
+                    width={172}
+                    height={172}
+                  />
                 </div>
               </div>
               <div className="about-middle">
-                <img
+                <Image
                   className="tilt-active"
                   src="/images/home/about-1-middle.jpg"
-                  alt="Image"
+                  width={347}
+                  height={644}
+                  alt=""
                 />
               </div>
               <div className="about-right">
                 <div className="img-box small">
-                  <img src="/images/home/about-1-right-1.jpg" alt="Image" />
+                  <Image
+                    src="/images/home/about-1-right-1.jpg"
+                    alt=""
+                    height={172}
+                    width={172}
+                  />
                 </div>
                 <div className="img-box big">
-                  <img src="/images/home/about-1-right-2.jpg" alt="Image" />
+                  <Image
+                    src="/images/home/about-1-right-2.jpg"
+                    width={235}
+                    height={246}
+                    alt="Image"
+                  />
                 </div>
               </div>
             </div>
@@ -89,7 +128,12 @@ const About = () => {
               <div className="col-lg-6 col-md-6 fadeinup wow">
                 <div className="about-1-item">
                   <div className="icon">
-                    <img src="/images/icons/about-1-1.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/about-1-1.svg"
+                      width={31}
+                      height={24}
+                      alt="icon"
+                    />
                   </div>
                   <div className="content">
                     <h3 className="box-title">Quality Services</h3>
@@ -102,7 +146,12 @@ const About = () => {
               <div className="col-lg-6 col-md-6 fadeinup wow">
                 <div className="about-1-item">
                   <div className="icon">
-                    <img src="/images/icons/about-1-2.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/about-1-2.svg"
+                      height={32}
+                      width={32}
+                      alt=""
+                    />
                   </div>
                   <div className="content">
                     <h3 className="box-title">Clients Feedback</h3>
@@ -116,7 +165,12 @@ const About = () => {
               <div className="col-lg-6 col-md-6 fadeinup wow">
                 <div className="about-1-item">
                   <div className="icon">
-                    <img src="/images/icons/about-1-3.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/about-1-3.svg"
+                      alt="icon"
+                      width={36}
+                      height={33}
+                    />
                   </div>
                   <div className="content">
                     <h3 className="box-title">Space Belongings</h3>
@@ -129,7 +183,12 @@ const About = () => {
               <div className="col-lg-6 col-md-6 fadeinup wow">
                 <div className="about-1-item">
                   <div className="icon">
-                    <img src="/images/icons/about-1-4.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/about-1-4.svg"
+                      alt="icon"
+                      height={32}
+                      width={32}
+                    />
                   </div>
                   <div className="content">
                     <h3 className="box-title">Personal Liability</h3>
