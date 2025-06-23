@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image";
 const LatestNews = () => {
   return (
     <section className="space overflow-hidden" id="blog-sec">
@@ -69,7 +70,12 @@ const LatestNews = () => {
               <div className="blog-card">
                 <div className="blog-img">
                   <a href="blog-details.html">
-                    <img src="/images/home/blog_1_3.jpg" alt="Image" />
+                    <Image
+                      src="/images/home/blog_1_3.jpg"
+                      width={464}
+                      height={392}
+                      alt=""
+                    />
                   </a>
                   <div className="date">
                     <a href="blog.html">22 Feb</a>
@@ -102,7 +108,12 @@ const LatestNews = () => {
               <div className="blog-card">
                 <div className="blog-img">
                   <a href="blog-details.html">
-                    <img src="/images/home/blog_1_3.jpg" alt="Image" />
+                    <Image
+                      src="/images/home/blog_1_3.jpg"
+                      width={464}
+                      height={392}
+                      alt=""
+                    />
                   </a>
                   <div className="date">
                     <a href="blog.html">23 Feb</a>
@@ -134,7 +145,12 @@ const LatestNews = () => {
               <div className="blog-card">
                 <div className="blog-img">
                   <a href="blog-details.html">
-                    <img src="/images/home/blog_1_3.jpg" alt="Image" />
+                    <Image
+                      src="/images/home/blog_1_3.jpg"
+                      width={464}
+                      height={392}
+                      alt=""
+                    />
                   </a>
                   <div className="date">
                     <a href="blog.html">24 Feb</a>
@@ -166,7 +182,12 @@ const LatestNews = () => {
               <div className="blog-card">
                 <div className="blog-img">
                   <a href="blog-details.html">
-                    <img src="/images/home/blog_1_3.jpg" alt="Image" />
+                    <Image
+                      src="/images/home/blog_1_3.jpg"
+                      width={464}
+                      height={392}
+                      alt=""
+                    />
                   </a>
                   <div className="date">
                     <a href="blog.html">26 Feb</a>
@@ -199,7 +220,12 @@ const LatestNews = () => {
               <div className="blog-card">
                 <div className="blog-img">
                   <a href="blog-details.html">
-                    <img src="/images/home/blog_1_3.jpg" alt="Image" />
+                    <Image
+                      src="/images/home/blog_1_3.jpg"
+                      width={464}
+                      height={392}
+                      alt=""
+                    />
                   </a>
                   <div className="date">
                     <a href="blog.html">27 Feb</a>
@@ -231,7 +257,12 @@ const LatestNews = () => {
               <div className="blog-card">
                 <div className="blog-img">
                   <a href="blog-details.html">
-                    <img src="/images/home/blog_1_3.jpg" alt="Image" />
+                    <Image
+                      src="/images/home/blog_1_3.jpg"
+                      width={464}
+                      height={392}
+                      alt=""
+                    />
                   </a>
                   <div className="date">
                     <a href="blog.html">16 Mar</a>

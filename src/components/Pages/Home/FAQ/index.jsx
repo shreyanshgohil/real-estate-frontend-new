@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const FAQ = () => {
@@ -9,14 +10,24 @@ const FAQ = () => {
         data-left="0"
         style={{ bottom: 0, left: 0 }}
       >
-        <img src="/images/home/faq-2-shape.png" alt="img" />
+        <Image
+          src="/images/home/faq-2-shape.png"
+          width={796}
+          height={386}
+          alt=""
+        />
       </div>
       <div
         className="shape-mockup spin d-none d-lg-block"
         data-bottom="11%"
         data-left="7%"
       >
-        <img src="/images/home/faq-2-circle-shape.png" alt="img" />
+        <Image
+          src="/images/home/faq-2-circle-shape.png"
+          height={64}
+          width={64}
+          alt="img"
+        />
       </div>
 
       <div className="container">

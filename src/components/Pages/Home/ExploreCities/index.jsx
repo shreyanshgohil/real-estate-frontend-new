@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Image from "next/image";
 const ExploreCities = () => {
   return (
     <div className="gallery-sec-2 overflow-hidden bg-smoke space overflow-hidden">
@@ -8,7 +9,12 @@ const ExploreCities = () => {
         data-top="12%"
         data-left="7%"
       >
-        <img src="/images/home/gallery-sec-1-left.png" alt="img" />
+        <Image
+          src="/images/home/gallery-sec-1-left.png"
+          width={75}
+          height={86}
+          alt=""
+        />
       </div>
       <div className="container">
         <div className="row justify-content-center">
@@ -58,9 +64,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-1.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">
@@ -86,9 +94,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-2.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">
@@ -114,9 +124,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-3.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">
@@ -142,9 +154,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-4.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">
@@ -170,9 +184,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-5.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">
@@ -198,9 +214,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-6.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">
@@ -226,9 +244,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-7.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">
@@ -254,9 +274,11 @@ const ExploreCities = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="gallery-card style-2">
                   <div className="gallery-img">
-                    <img
+                    <Image
                       src="/images/gallery/gallery-2-8.jpg"
-                      alt="gallery image"
+                      width={417}
+                      height={417}
+                      alt=""
                     />
                     <div className="gallery-content">
                       <div className="gallery-content-wrapper">

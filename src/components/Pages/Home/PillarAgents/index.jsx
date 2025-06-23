@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,7 +11,12 @@ const PillarAgents = () => {
         data-right="4%"
         style={{ top: "6%", right: "4%" }}
       >
-        <img src="/images/shape/team-2-shape.png" alt="img" />
+        <Image
+          src="/images/shape/team-2-shape.png"
+          height={57}
+          width={57}
+          alt=""
+        />
       </div>
       <div className="container">
         <div className="row justify-content-center">
@@ -56,7 +62,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_1.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_1.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">
@@ -85,7 +96,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_2.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_2.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">
@@ -114,7 +130,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_3.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_3.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">
@@ -142,7 +163,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_3.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_3.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">
@@ -170,7 +196,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_3.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_3.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">
@@ -198,7 +229,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_3.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_3.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">
@@ -226,7 +262,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_3.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_3.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">
@@ -254,7 +295,12 @@ const PillarAgents = () => {
                 data-bg-src="/images/shape/team-2-bg-shape.png"
               >
                 <div className="team-img">
-                  <img src="/images/team/team_2_3.png" alt="Team" />
+                  <Image
+                    src="/images/team/team_2_3.png"
+                    width={288}
+                    height={422}
+                    alt=""
+                  />
                 </div>
                 <div className="team-content">
                   <div className="left-contet">

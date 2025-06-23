@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const PropertiesValues = () => {
@@ -30,9 +31,11 @@ const PropertiesValues = () => {
           <div className="col-lg-4 col-md-12">
             <div className="property-values-2-item">
               <div className="thumb">
-                <img
+                <Image
                   src="/images/property-values/property-values-2-1.jpg"
-                  alt="img"
+                  width={464}
+                  height={527}
+                  alt=""
                 />
                 <div className="plus-icon">
                   <i className="fa-solid fa-plus"></i>
@@ -58,9 +61,11 @@ const PropertiesValues = () => {
           <div className="col-lg-4 col-md-12">
             <div className="property-values-2-item ">
               <div className="thumb">
-                <img
+                <Image
                   src="/images/property-values/property-values-2-2.jpg"
-                  alt="img"
+                  width={464}
+                  height={253}
+                  alt=""
                 />
                 <div className="plus-icon">
                   <i className="fa-solid fa-plus"></i>
@@ -82,9 +87,11 @@ const PropertiesValues = () => {
                 </div>
               </div>
               <div className="thumb">
-                <img
-                  src="/images/property-values/property-values-2-3.jpg"
-                  alt="img"
+                <Image
+                  src="/images/property-values/property-values-2-2.jpg"
+                  width={464}
+                  height={253}
+                  alt=""
                 />
                 <div className="plus-icon">
                   <i className="fa-solid fa-plus"></i>
@@ -110,9 +117,11 @@ const PropertiesValues = () => {
           <div className="col-lg-4 col-md-12">
             <div className="property-values-2-item">
               <div className="thumb">
-                <img
-                  src="/images/property-values/property-values-2-4.jpg"
-                  alt="img"
+                <Image
+                  src="/images/property-values/property-values-2-1.jpg"
+                  width={464}
+                  height={527}
+                  alt=""
                 />
                 <div className="plus-icon">
                   <i className="fa-solid fa-plus"></i>

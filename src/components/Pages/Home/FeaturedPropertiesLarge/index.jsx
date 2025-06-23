@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image";
 const FeaturedPropertiesLarge = () => {
   return (
     <section className="popular-sec-1 space overflow-hidden bg-smoke">
@@ -59,9 +60,20 @@ const FeaturedPropertiesLarge = () => {
             <SwiperSlide className="swiper-slide">
               <div className="popular-list-1 style-2">
                 <div className="thumb-wrapper">
-                  <img src="/images/popular/feature-1-1.jpg" alt="Image" />
+                  <Image
+                    src="/images/popular/feature-1-1.jpg"
+                    width={524}
+                    height={444}
+                    style={{ minWidth: "524px", minHeight: "444px" }}
+                    alt=""
+                  />
                   <div className="popular-badge">
-                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/sell_rent_icon.svg"
+                      alt=""
+                      width={54}
+                      height={30}
+                    />
                     <p>For Sale</p>
                   </div>
                 </div>
@@ -73,8 +85,10 @@ const FeaturedPropertiesLarge = () => {
                     </h3>
                     <div className="box-text">
                       <div className="icon">
-                        <img
+                        <Image
                           src="/images/icons/popular-location.svg"
+                          height={16}
+                          width={16}
                           alt="icon"
                         />
                       </div>{" "}
@@ -85,20 +99,35 @@ const FeaturedPropertiesLarge = () => {
                   <ul className="property-featured">
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bed.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bed.svg"
+                          width={23}
+                          height={26}
+                          alt=""
+                        />
                       </div>
                       Bed 4
                     </li>
 
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bath.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bath.svg"
+                          height={23}
+                          width={23}
+                          alt=""
+                        />
                       </div>
                       Bath 2
                     </li>
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/sqft.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/sqft.svg"
+                          width={23}
+                          height={23}
+                          alt=""
+                        />
                       </div>
                       1500 sqft
                     </li>
@@ -114,7 +143,12 @@ const FeaturedPropertiesLarge = () => {
                   </div>
                   <div className="agent-wrap">
                     <div className="agent-thumb">
-                      <img src="/images/popular/agent-thumb-1.jpg" alt="img" />
+                      <Image
+                        src="/images/popular/agent-thumb-1.jpg"
+                        height={50}
+                        width={50}
+                        alt=""
+                      />
                     </div>
                     <div className="agent-content">
                       <h4 className="box-title">Roberto Ankunding</h4>
@@ -127,9 +161,20 @@ const FeaturedPropertiesLarge = () => {
             <SwiperSlide className="swiper-slide">
               <div className="popular-list-1 style-2">
                 <div className="thumb-wrapper">
-                  <img src="/images/popular/feature-1-2.jpg" alt="Image" />
+                  <Image
+                    src="/images/popular/feature-1-2.jpg"
+                    width={524}
+                    height={444}
+                    style={{ minWidth: "524px", minHeight: "444px" }}
+                    alt=""
+                  />
                   <div className="popular-badge">
-                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/sell_rent_icon.svg"
+                      alt=""
+                      width={54}
+                      height={30}
+                    />
                     <p>For Sale</p>
                   </div>
                 </div>
@@ -141,9 +186,11 @@ const FeaturedPropertiesLarge = () => {
                     </h3>
                     <div className="box-text">
                       <div className="icon">
-                        <img
+                        <Image
                           src="/images/icons/popular-location.svg"
-                          alt="icon"
+                          height={16}
+                          width={16}
+                          alt=""
                         />
                       </div>{" "}
                       39581 Rohan Estates, New York
@@ -153,20 +200,35 @@ const FeaturedPropertiesLarge = () => {
                   <ul className="property-featured">
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bed.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bed.svg"
+                          width={23}
+                          height={26}
+                          alt=""
+                        />
                       </div>
                       Bed 4
                     </li>
 
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bath.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bath.svg"
+                          height={23}
+                          width={23}
+                          alt=""
+                        />
                       </div>
                       Bath 2
                     </li>
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/sqft.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/sqft.svg"
+                          width={23}
+                          height={23}
+                          alt=""
+                        />
                       </div>
                       1500 sqft
                     </li>
@@ -182,7 +244,12 @@ const FeaturedPropertiesLarge = () => {
                   </div>
                   <div className="agent-wrap">
                     <div className="agent-thumb">
-                      <img src="/images/popular/agent-thumb-2.jpg" alt="img" />
+                      <Image
+                        src="/images/popular/agent-thumb-2.jpg"
+                        height={50}
+                        width={50}
+                        alt=""
+                      />
                     </div>
                     <div className="agent-content">
                       <h4 className="box-title">Walter Deckow</h4>
@@ -195,9 +262,20 @@ const FeaturedPropertiesLarge = () => {
             <SwiperSlide className="swiper-slide">
               <div className="popular-list-1 style-2">
                 <div className="thumb-wrapper">
-                  <img src="/images/popular/feature-1-1.jpg" alt="Image" />
+                  <Image
+                    src="/images/popular/feature-1-1.jpg"
+                    width={524}
+                    height={444}
+                    alt=""
+                    style={{ minWidth: "524px", minHeight: "444px" }}
+                  />
                   <div className="popular-badge">
-                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/sell_rent_icon.svg"
+                      alt=""
+                      width={54}
+                      height={30}
+                    />
                     <p>For Sale</p>
                   </div>
                 </div>
@@ -209,9 +287,11 @@ const FeaturedPropertiesLarge = () => {
                     </h3>
                     <div className="box-text">
                       <div className="icon">
-                        <img
+                        <Image
                           src="/images/icons/popular-location.svg"
-                          alt="icon"
+                          height={16}
+                          width={16}
+                          alt=""
                         />
                       </div>{" "}
                       39581 Rohan Estates, New York
@@ -221,20 +301,35 @@ const FeaturedPropertiesLarge = () => {
                   <ul className="property-featured">
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bed.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bed.svg"
+                          width={23}
+                          height={26}
+                          alt=""
+                        />
                       </div>
                       Bed 4
                     </li>
 
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bath.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bath.svg"
+                          height={23}
+                          width={23}
+                          alt=""
+                        />
                       </div>
                       Bath 2
                     </li>
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/sqft.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/sqft.svg"
+                          width={23}
+                          height={23}
+                          alt=""
+                        />
                       </div>
                       1500 sqft
                     </li>
@@ -250,7 +345,12 @@ const FeaturedPropertiesLarge = () => {
                   </div>
                   <div className="agent-wrap">
                     <div className="agent-thumb">
-                      <img src="/images/popular/agent-thumb-1.jpg" alt="img" />
+                      <Image
+                        src="/images/popular/agent-thumb-1.jpg"
+                        height={50}
+                        width={50}
+                        alt=""
+                      />
                     </div>
                     <div className="agent-content">
                       <h4 className="box-title">Roberto Ankunding</h4>
@@ -263,9 +363,20 @@ const FeaturedPropertiesLarge = () => {
             <SwiperSlide className="swiper-slide">
               <div className="popular-list-1 style-2">
                 <div className="thumb-wrapper">
-                  <img src="/images/popular/feature-1-2.jpg" alt="Image" />
+                  <Image
+                    src="/images/popular/feature-1-2.jpg"
+                    width={524}
+                    height={444}
+                    style={{ minWidth: "524px", minHeight: "444px" }}
+                    alt=""
+                  />
                   <div className="popular-badge">
-                    <img src="/images/icons/sell_rent_icon.svg" alt="icon" />
+                    <Image
+                      src="/images/icons/sell_rent_icon.svg"
+                      alt=""
+                      width={54}
+                      height={30}
+                    />
                     <p>For Sale</p>
                   </div>
                 </div>
@@ -277,9 +388,11 @@ const FeaturedPropertiesLarge = () => {
                     </h3>
                     <div className="box-text">
                       <div className="icon">
-                        <img
+                        <Image
                           src="/images/icons/popular-location.svg"
-                          alt="icon"
+                          height={16}
+                          width={16}
+                          alt=""
                         />
                       </div>{" "}
                       39581 Rohan Estates, New York
@@ -289,20 +402,35 @@ const FeaturedPropertiesLarge = () => {
                   <ul className="property-featured">
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bed.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bed.svg"
+                          width={23}
+                          height={26}
+                          alt=""
+                        />
                       </div>
                       Bed 4
                     </li>
 
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/bath.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/bath.svg"
+                          height={23}
+                          width={23}
+                          alt=""
+                        />
                       </div>
                       Bath 2
                     </li>
                     <li>
                       <div className="icon">
-                        <img src="/images/icons/sqft.svg" alt="icon" />
+                        <Image
+                          src="/images/icons/sqft.svg"
+                          width={23}
+                          height={23}
+                          alt=""
+                        />
                       </div>
                       1500 sqft
                     </li>
@@ -318,7 +446,12 @@ const FeaturedPropertiesLarge = () => {
                   </div>
                   <div className="agent-wrap">
                     <div className="agent-thumb">
-                      <img src="/images/popular/agent-thumb-2.jpg" alt="img" />
+                      <Image
+                        src="/images/popular/agent-thumb-2.jpg"
+                        height={50}
+                        width={50}
+                        alt=""
+                      />
                     </div>
                     <div className="agent-content">
                       <h4 className="box-title">Walter Deckow</h4>

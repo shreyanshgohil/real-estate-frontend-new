@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
+import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -51,9 +52,11 @@ const Testimonials = () => {
                     <div className="testi-block style-2" dir="ltr">
                       <div className="top-wrap">
                         <div className="quote">
-                          <img
+                          <Image
                             src="/images/icons/testi-2quote.svg"
-                            alt="quote"
+                            alt=""
+                            width={56}
+                            height={48}
                           />
                         </div>
                       </div>
@@ -79,7 +82,12 @@ const Testimonials = () => {
                           <i className="fa-sharp fa-solid fa-star"></i>
                         </div>
                         <div className="team-img">
-                          <img src="/images/home/testi-2-1.jpg" alt="Team" />
+                          <Image
+                            src="/images/home/testi-2-1.jpg"
+                            height={82}
+                            width={82}
+                            alt=""
+                          />
                         </div>
                         <div className="content">
                           <h3 className="box-title">Georgia Schaden</h3>
@@ -92,9 +100,11 @@ const Testimonials = () => {
                     <div className="testi-block style-2" dir="ltr">
                       <div className="top-wrap">
                         <div className="quote">
-                          <img
+                          <Image
                             src="/images/icons/testi-2quote.svg"
-                            alt="quote"
+                            alt=""
+                            width={56}
+                            height={48}
                           />
                         </div>
                       </div>
@@ -120,7 +130,12 @@ const Testimonials = () => {
                           <i className="fa-sharp fa-solid fa-star"></i>
                         </div>
                         <div className="team-img">
-                          <img src="/images/home/testi-2-1.jpg" alt="Team" />
+                          <Image
+                            src="/images/home/testi-2-1.jpg"
+                            height={82}
+                            width={82}
+                            alt=""
+                          />
                         </div>
                         <div className="content">
                           <h3 className="box-title">Walter Deckow</h3>
@@ -133,9 +148,11 @@ const Testimonials = () => {
                     <div className="testi-block style-2" dir="ltr">
                       <div className="top-wrap">
                         <div className="quote">
-                          <img
+                          <Image
                             src="/images/icons/testi-2quote.svg"
-                            alt="quote"
+                            alt=""
+                            width={56}
+                            height={48}
                           />
                         </div>
                       </div>
@@ -161,7 +178,12 @@ const Testimonials = () => {
                           <i className="fa-sharp fa-solid fa-star"></i>
                         </div>
                         <div className="team-img">
-                          <img src="/images/home/testi-2-1.jpg" alt="Team" />
+                          <Image
+                            src="/images/home/testi-2-1.jpg"
+                            height={82}
+                            width={82}
+                            alt=""
+                          />
                         </div>
                         <div className="content">
                           <h3 className="box-title">Carlos Bauch</h3>
@@ -174,9 +196,11 @@ const Testimonials = () => {
                     <div className="testi-block style-2" dir="ltr">
                       <div className="top-wrap">
                         <div className="quote">
-                          <img
+                          <Image
                             src="/images/icons/testi-2quote.svg"
-                            alt="quote"
+                            alt=""
+                            width={56}
+                            height={48}
                           />
                         </div>
                       </div>
@@ -202,7 +226,12 @@ const Testimonials = () => {
                           <i className="fa-sharp fa-solid fa-star"></i>
                         </div>
                         <div className="team-img">
-                          <img src="/images/home/testi-2-1.jpg" alt="Team" />
+                          <Image
+                            src="/images/home/testi-2-1.jpg"
+                            height={82}
+                            width={82}
+                            alt=""
+                          />
                         </div>
                         <div className="content">
                           <h3 className="box-title">Julia Era</h3>
@@ -240,15 +269,22 @@ const Testimonials = () => {
               <div className="testi-bottom-item">
                 <div className="trust-content">
                   <div className="icon">
-                    <img src="/images/icons/star-icon.svg" alt="img" />
+                    <Image
+                      src="/images/icons/star-icon.svg"
+                      alt=""
+                      height={32}
+                      width={32}
+                    />
                   </div>
                   <h4 className="box-title">Trustipilot</h4>
                 </div>
                 <div className="bottom">
                   <div className="avatar">
-                    <img
+                    <Image
                       src="/images/home/heror-1-avator-group.png"
-                      alt="img"
+                      width={194}
+                      height={64}
+                      alt=""
                     />
                   </div>
                   <div className="content">
@@ -272,15 +308,22 @@ const Testimonials = () => {
               <div className="testi-bottom-item">
                 <div className="trust-content">
                   <div className="icon">
-                    <img src="/images/icons/google-icon.svg" alt="img" />
+                    <Image
+                      src="/images/icons/google-icon.svg"
+                      alt=""
+                      height={28}
+                      width={28}
+                    />
                   </div>
                   <h4 className="box-title">Google</h4>
                 </div>
                 <div className="bottom">
                   <div className="avatar">
-                    <img
+                    <Image
                       src="/images/home/heror-1-avator-group-2.png"
-                      alt="img"
+                      height={64}
+                      width={194}
+                      alt=""
                     />
                   </div>
                   <div className="content">
