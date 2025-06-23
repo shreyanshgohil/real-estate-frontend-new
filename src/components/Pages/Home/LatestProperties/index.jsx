@@ -389,7 +389,12 @@ const LatestProperties = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/images/icons/sqft.svg" alt="icon" />
+                      <Image
+                        src="/images/icons/sqft.svg"
+                        width={23}
+                        height={16}
+                        alt=""
+                      />
                     </div>
                     1500 sqft
                   </li>
@@ -435,7 +440,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -456,7 +466,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
 
@@ -543,7 +558,12 @@ const LatestProperties = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/images/icons/sqft.svg" alt="icon" />
+                      <Image
+                        src="/images/icons/sqft.svg"
+                        width={23}
+                        height={16}
+                        alt=""
+                      />
                     </div>
                     1500 sqft
                   </li>
@@ -589,7 +609,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -610,7 +635,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
 
@@ -697,7 +727,12 @@ const LatestProperties = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/images/icons/sqft.svg" alt="icon" />
+                      <Image
+                        src="/images/icons/sqft.svg"
+                        width={23}
+                        height={16}
+                        alt=""
+                      />
                     </div>
                     1500 sqft
                   </li>
@@ -743,7 +778,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -764,7 +804,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
 
@@ -851,7 +896,12 @@ const LatestProperties = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/images/icons/sqft.svg" alt="icon" />
+                      <Image
+                        src="/images/icons/sqft.svg"
+                        width={23}
+                        height={16}
+                        alt=""
+                      />
                     </div>
                     1500 sqft
                   </li>
@@ -897,7 +947,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -918,7 +973,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
 
@@ -1005,7 +1065,12 @@ const LatestProperties = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/images/icons/sqft.svg" alt="icon" />
+                      <Image
+                        src="/images/icons/sqft.svg"
+                        width={23}
+                        height={16}
+                        alt=""
+                      />
                     </div>
                     1500 sqft
                   </li>
@@ -1051,7 +1116,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -1072,7 +1142,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
 
@@ -1159,7 +1234,12 @@ const LatestProperties = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/images/icons/sqft.svg" alt="icon" />
+                      <Image
+                        src="/images/icons/sqft.svg"
+                        width={23}
+                        height={16}
+                        alt=""
+                      />
                     </div>
                     1500 sqft
                   </li>
@@ -1205,7 +1285,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -1226,7 +1311,12 @@ const LatestProperties = () => {
                       className="popular-popup-image"
                       href="/images/popular/popular-1-2.jpg"
                     >
-                      <img src="/images/popular/popular-1-2.jpg" alt="Image" />
+                      <Image
+                        src="/images/popular/popular-1-2.jpg"
+                        width={340}
+                        height={239}
+                        alt=""
+                      />
                     </a>
                   </SwiperSlide>
 
