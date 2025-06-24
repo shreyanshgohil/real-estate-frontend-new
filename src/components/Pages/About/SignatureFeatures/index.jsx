@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const SignatureFeatures = () => {
@@ -45,7 +46,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">01</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-1.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-1.svg"
+                  height={39}
+                  width={39}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">
@@ -72,7 +78,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">02</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-2.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-2.svg"
+                  height={39}
+                  width={39}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">
@@ -99,7 +110,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">03</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-3.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-3.svg"
+                  alt=""
+                  height={39}
+                  width={39}
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">
@@ -126,7 +142,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">04</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-4.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-4.svg"
+                  height={39}
+                  width={39}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">
@@ -152,7 +173,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">05</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-1.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-1.svg"
+                  height={39}
+                  width={39}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">
@@ -178,7 +204,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">06</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-2.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-2.svg"
+                  height={39}
+                  width={39}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">
@@ -205,7 +236,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">07</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-3.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-3.svg"
+                  alt=""
+                  height={39}
+                  width={39}
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">
@@ -232,7 +268,12 @@ const SignatureFeatures = () => {
             <div className="why-card-1 style-2 style-4">
               <h4 className="count">08</h4>
               <div className="why-card-1__icon">
-                <img src="/images/icons/why-icon-1-4.svg" alt="image" />
+                <Image
+                  src="/images/icons/why-icon-1-4.svg"
+                  height={39}
+                  width={39}
+                  alt=""
+                />
               </div>
               <div className="why-card-1__content">
                 <h3 className="box-title">

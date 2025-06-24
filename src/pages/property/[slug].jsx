@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/thumbs";
 import { animationMoving } from "@/utils/animation";
+import Image from "next/image";
 
 const PropertyDetails = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -43,9 +44,11 @@ const PropertyDetails = () => {
                         className="property-slider-img propery-single-slide"
                         id="panorama1"
                       >
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-1.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
@@ -54,9 +57,11 @@ const PropertyDetails = () => {
                         className="property-slider-img propery-single-slide"
                         id="panorama2"
                       >
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-2.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
@@ -65,9 +70,11 @@ const PropertyDetails = () => {
                         className="property-slider-img propery-single-slide"
                         id="panorama3"
                       >
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-3.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
@@ -76,9 +83,11 @@ const PropertyDetails = () => {
                         className="property-slider-img propery-single-slide"
                         id="panorama4"
                       >
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-4.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
@@ -87,9 +96,11 @@ const PropertyDetails = () => {
                         className="property-slider-img propery-single-slide"
                         id="panorama5"
                       >
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-5.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
@@ -111,41 +122,51 @@ const PropertyDetails = () => {
                   >
                     <SwiperSlide className="swiper-slide" data-bg-src="">
                       <div className="tab-btn property-slider-img">
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-1.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide" data-bg-src="">
                       <div className="tab-btn property-slider-img">
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-2.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide" data-bg-src="">
                       <div className="tab-btn property-slider-img">
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-3.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide" data-bg-src="">
                       <div className="tab-btn property-slider-img">
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-4.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide" data-bg-src="">
                       <div className="tab-btn property-slider-img">
-                        <img
+                        <Image
                           src="/images/explore-cites/explore-cites-bg-5.jpg"
-                          alt="img"
+                          width={943}
+                          height={650}
+                          alt=""
                         />
                       </div>
                     </SwiperSlide>
@@ -191,8 +212,10 @@ const PropertyDetails = () => {
                     <div className="page-features fadeinup wow">
                       <div className="box-text">
                         <div className="icon">
-                          <img
+                          <Image
                             src="/images/icons/popular-location.svg"
+                            width={16}
+                            height={16}
                             alt="icon"
                           />
                         </div>{" "}
@@ -201,20 +224,35 @@ const PropertyDetails = () => {
                       <ul className="property-featured">
                         <li>
                           <div className="icon">
-                            <img src="/images/icons/bed.svg" alt="icon" />
+                            <Image
+                              src="/images/icons/bed.svg"
+                              width={23}
+                              height={16}
+                              alt=""
+                            />
                           </div>
                           Bed 4
                         </li>
 
                         <li>
                           <div className="icon">
-                            <img src="/images/icons/bath.svg" alt="icon" />
+                            <Image
+                              src="/images/icons/bath.svg"
+                              width={16}
+                              height={16}
+                              alt=""
+                            />
                           </div>
                           Bath 2
                         </li>
                         <li>
                           <div className="icon">
-                            <img src="/images/icons/sqft.svg" alt="icon" />
+                            <Image
+                              src="/images/icons/sqft.svg"
+                              width={16}
+                              height={16}
+                              alt=""
+                            />
                           </div>
                           1500 sqft
                         </li>
@@ -254,9 +292,11 @@ const PropertyDetails = () => {
                     <ul className="property-grid-list fadeinup wow">
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-1.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -266,9 +306,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-2.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -278,9 +320,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-3.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -290,9 +334,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-4.svg"
-                            alt="img"
+                            height={24}
+                            width={18}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -302,9 +348,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-5.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -314,9 +362,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-6.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -326,9 +376,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-7.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -338,9 +390,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-8.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -350,9 +404,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-9.svg"
-                            alt="img"
+                            height={24}
+                            width={22}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -362,9 +418,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-10.svg"
-                            alt="img"
+                            height={24}
+                            width={18}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -374,9 +432,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-11.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -386,9 +446,11 @@ const PropertyDetails = () => {
                       </li>
                       <li>
                         <div className="property-grid-list-icon">
-                          <img
+                          <Image
                             src="/images/icons/property-single-icon1-12.svg"
-                            alt="img"
+                            height={24}
+                            width={24}
+                            alt=""
                           />
                         </div>
                         <div className="property-grid-list-details">
@@ -404,10 +466,12 @@ const PropertyDetails = () => {
                       <div className="col-xl-7">
                         <div className="property-gallery-card">
                           <div className="property-gallery-card-img">
-                            <img
+                            <Image
                               className="w-100"
                               src="/images/property-details/property-details_gal_1.jpg"
-                              alt="img"
+                              width={540}
+                              height={215}
+                              alt=""
                             />
                           </div>
                           <a
@@ -421,10 +485,12 @@ const PropertyDetails = () => {
                       <div className="col-xl-5">
                         <div className="property-gallery-card">
                           <div className="property-gallery-card-img">
-                            <img
+                            <Image
                               className="w-100"
                               src="/images/property-details/property-details_gal_2.jpg"
-                              alt="img"
+                              width={379}
+                              height={215}
+                              alt=""
                             />
                           </div>
                           <a
@@ -438,10 +504,12 @@ const PropertyDetails = () => {
                       <div className="col-xl-5">
                         <div className="property-gallery-card">
                           <div className="property-gallery-card-img">
-                            <img
+                            <Image
                               className="w-100"
                               src="/images/property-details/property-details_gal_3.jpg"
-                              alt="img"
+                              width={379}
+                              height={215}
+                              alt=""
                             />
                           </div>
                           <a
@@ -455,10 +523,12 @@ const PropertyDetails = () => {
                       <div className="col-xl-7">
                         <div className="property-gallery-card">
                           <div className="property-gallery-card-img">
-                            <img
+                            <Image
                               className="w-100"
                               src="/images/property-details/property-details_gal_4.jpg"
-                              alt="img"
+                              width={540}
+                              height={215}
+                              alt=""
                             />
                           </div>
                           <a
@@ -472,10 +542,12 @@ const PropertyDetails = () => {
                       <div className="col-xl-7">
                         <div className="property-gallery-card">
                           <div className="property-gallery-card-img">
-                            <img
+                            <Image
                               className="w-100"
                               src="/images/property-details/property-details_gal_5.jpg"
-                              alt="img"
+                              width={540}
+                              height={215}
+                              alt=""
                             />
                           </div>
                           <a
@@ -489,10 +561,12 @@ const PropertyDetails = () => {
                       <div className="col-xl-5">
                         <div className="property-gallery-card">
                           <div className="property-gallery-card-img">
-                            <img
+                            <Image
                               className="w-100"
                               src="/images/property-details/property-details_gal_6.jpg"
-                              alt="img"
+                              width={379}
+                              height={215}
+                              alt=""
                             />
                           </div>
                           <a
@@ -623,9 +697,11 @@ const PropertyDetails = () => {
                       >
                         <div className="property-grid-plan fadeinup wow">
                           <div className="property-grid-thumb">
-                            <img
+                            <Image
                               src="/images/property-details/property__plan_1.jpg"
-                              alt="img"
+                              width={317}
+                              height={300}
+                              alt=""
                             />
                           </div>
                           <div className="property-grid-details">
@@ -654,9 +730,11 @@ const PropertyDetails = () => {
                       >
                         <div className="property-grid-plan">
                           <div className="property-grid-thumb">
-                            <img
+                            <Image
                               src="/images/property-details/property__plan_1.jpg"
-                              alt="img"
+                              width={317}
+                              height={300}
+                              alt=""
                             />
                           </div>
                           <div className="property-grid-details">
@@ -685,9 +763,11 @@ const PropertyDetails = () => {
                       >
                         <div className="property-grid-plan">
                           <div className="property-grid-thumb">
-                            <img
+                            <Image
                               src="/images/property-details/property__plan_1.jpg"
-                              alt="img"
+                              width={317}
+                              height={300}
+                              alt=""
                             />
                           </div>
                           <div className="property-grid-details">
@@ -716,9 +796,11 @@ const PropertyDetails = () => {
                       >
                         <div className="property-grid-plan">
                           <div className="property-grid-thumb">
-                            <img
+                            <Image
                               src="/images/property-details/property__plan_1.jpg"
-                              alt="img"
+                              width={317}
+                              height={300}
+                              alt=""
                             />
                           </div>
                           <div className="property-grid-details">
@@ -751,8 +833,10 @@ const PropertyDetails = () => {
                       </div>
                       <div className="location-map-address">
                         <div className="thumb">
-                          <img
+                          <Image
                             src="/images/property-details/property-details_1.jpg"
+                            width={65}
+                            height={62}
                             alt="img"
                           />
                         </div>
@@ -788,9 +872,11 @@ const PropertyDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-1.jpg"
-                            alt="Image"
+                            width={90}
+                            height={90}
+                            alt=""
                           />
                         </a>
                       </div>
@@ -806,21 +892,36 @@ const PropertyDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>
@@ -833,9 +934,11 @@ const PropertyDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-2.jpg"
-                            alt="Image"
+                            width={90}
+                            height={90}
+                            alt=""
                           />
                         </a>
                       </div>
@@ -851,21 +954,36 @@ const PropertyDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>
@@ -878,9 +996,11 @@ const PropertyDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-3.jpg"
-                            alt="Image"
+                            width={90}
+                            height={90}
+                            alt=""
                           />
                         </a>
                       </div>
@@ -896,21 +1016,36 @@ const PropertyDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>
@@ -923,9 +1058,11 @@ const PropertyDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-4.jpg"
-                            alt="Image"
+                            width={90}
+                            height={90}
+                            alt=""
                           />
                         </a>
                       </div>
@@ -941,21 +1078,36 @@ const PropertyDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>

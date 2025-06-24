@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import { animationMoving } from "@/utils/animation";
+import Image from "next/image";
 
 const NotFound = () => {
   useEffect(() => {
@@ -26,13 +27,23 @@ const NotFound = () => {
           data-bottom="0%"
           data-right="0%"
         >
-          <img src="/images/error/error-bottom.png" alt="img" />
+          <Image
+            src="/images/error/error-bottom.png"
+            width={793}
+            height={792}
+            alt=""
+          />
         </div>
         <div
           className="error-bg-img"
           data-mask-src="/images/error/error-bg-shape.png"
         >
-          <img src="/images/error/error-bg.png" alt="img" />
+          <Image
+            width={1205}
+            height={840}
+            src="/images/error/error-bg.png"
+            alt=""
+          />
         </div>
         <div className="container">
           <div className="row justify-content-center">

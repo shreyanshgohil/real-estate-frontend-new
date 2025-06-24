@@ -12,8 +12,10 @@ const Footer = () => {
                 <div className="th-widget-about">
                   <div className="about-logo">
                     <a href="index.html">
-                      <img
+                      <Image
                         src="/images/logos/logo-white.svg"
+                        width={199}
+                        height={56}
                         alt="Piller-html"
                       />
                     </a>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const PricingPlan = () => {
@@ -9,7 +10,12 @@ const PricingPlan = () => {
             <div className="price-card ">
               <div className="price-card_top">
                 <div className="icon">
-                  <img src="/images/icons/pricing-icon-1.svg" alt="img" />
+                  <Image
+                    src="/images/icons/pricing-icon-1.svg"
+                    height={40}
+                    width={40}
+                    alt=""
+                  />
                 </div>
                 <h3 className="price-card_title">Basic Plan</h3>
               </div>
@@ -68,7 +74,12 @@ const PricingPlan = () => {
               <span className="tag">Most Popular</span>
               <div className="price-card_top">
                 <div className="icon">
-                  <img src="/images/icons/pricing-icon-2.svg" alt="img" />
+                  <Image
+                    src="/images/icons/pricing-icon-2.svg"
+                    height={40}
+                    width={40}
+                    alt=""
+                  />
                 </div>
                 <h3 className="price-card_title">Advanced Plan</h3>
               </div>
@@ -126,7 +137,12 @@ const PricingPlan = () => {
             <div className="price-card ">
               <div className="price-card_top">
                 <div className="icon">
-                  <img src="/images/icons/pricing-icon-3.svg" alt="img" />
+                  <Image
+                    src="/images/icons/pricing-icon-3.svg"
+                    width={24}
+                    height={40}
+                    alt="img"
+                  />
                 </div>
                 <h3 className="price-card_title">Premium Plan</h3>
               </div>

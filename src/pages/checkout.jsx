@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import Layout from "@/components/Layout";
 import { animationMoving } from "@/utils/animation";
+import Image from "next/image";
 const Checkout = () => {
   useEffect(() => {
     animationMoving();
@@ -296,11 +297,11 @@ const Checkout = () => {
                 <tr class="cart_item">
                   <td data-title="Product">
                     <a class="cart-productimage" href="shop-details.html">
-                      <img
+                      <Image
                         width="91"
                         height="91"
                         src="/images/product/product_1_2.png"
-                        alt="Image"
+                        alt=""
                       />
                     </a>
                   </td>

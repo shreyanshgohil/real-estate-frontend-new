@@ -4,6 +4,7 @@ import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import ContactArea from "@/components/Pages/Contact/ContactArea";
 import ContactForm from "@/components/Pages/Contact/ContactForm";
 import { animationMoving } from "@/utils/animation";
+import Image from "next/image";
 const contact = () => {
   const breadCumData = {
     title: "Contact",
@@ -29,7 +30,12 @@ const contact = () => {
               loading="lazy"
             ></iframe>
             <div className="contact-icon">
-              <img src="/images/icons/con-location-dot.svg" alt="img" />
+              <Image
+                src="/images/icons/con-location-dot.svg"
+                width={48}
+                height={65}
+                alt=""
+              />
             </div>
           </div>
         </div>

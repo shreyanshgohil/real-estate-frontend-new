@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ContactForm = () => {
@@ -73,7 +74,12 @@ const ContactForm = () => {
                 </form>
               </div>
               <div className="contact-form-thumb overflow-hidden">
-                <img src="/images/contact/contact-page-thumb.jpg" alt="img" />
+                <Image
+                  src="/images/contact/contact-page-thumb.jpg"
+                  width={664}
+                  height={727}
+                  alt=""
+                />
               </div>
             </div>
           </div>

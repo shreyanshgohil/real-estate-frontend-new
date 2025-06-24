@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import { animationMoving } from "@/utils/animation";
+import Image from "next/image";
 const wishlist = () => {
   useEffect(() => {
     animationMoving();
@@ -67,10 +68,12 @@ const wishlist = () => {
                     </td>
                     <td class="product-thumbnail">
                       <a href="shop-details.html">
-                        <img
+                        <Image
                           src="/images/product/product_1_1.png"
+                          width={89}
+                          height={89}
+                          alt=""
                           class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                          alt="image"
                         />
                       </a>
                     </td>
@@ -133,10 +136,12 @@ const wishlist = () => {
                     </td>
                     <td class="product-thumbnail">
                       <a href="shop-details.html">
-                        <img
+                        <Image
                           src="/images/product/product_1_2.png"
                           class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                          alt="image"
+                          width={89}
+                          height={89}
+                          alt=""
                         />
                       </a>
                     </td>
@@ -211,10 +216,12 @@ const wishlist = () => {
                     </td>
                     <td class="product-thumbnail">
                       <a href="shop-details.html">
-                        <img
+                        <Image
                           src="/images/product/product_1_3.png"
                           class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                          alt="image"
+                          width={89}
+                          height={89}
+                          alt=""
                         />
                       </a>
                     </td>

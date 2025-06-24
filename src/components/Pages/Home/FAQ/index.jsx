@@ -26,7 +26,7 @@ const FAQ = () => {
           src="/images/home/faq-2-circle-shape.png"
           height={64}
           width={64}
-          alt="img"
+          alt=""
         />
       </div>
 

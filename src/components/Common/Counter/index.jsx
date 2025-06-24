@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Counter = () => {
@@ -11,7 +12,12 @@ const Counter = () => {
           <div className="counter-card-wrap">
             <div className="counter-card fadeinup wow">
               <div className="box-icon">
-                <img src="/images/icons/counter_1_1.svg" alt="Icon" />
+                <Image
+                  src="/images/icons/counter_1_1.svg"
+                  width={64}
+                  height={64}
+                  alt=""
+                />
               </div>
               <div className="media-body">
                 <h4 className="box-number">
@@ -24,7 +30,12 @@ const Counter = () => {
             <div className="divider"></div>
             <div className="counter-card fadeinup wow">
               <div className="box-icon">
-                <img src="/images/icons/counter_1_1.svg" alt="Icon" />
+                <Image
+                  src="/images/icons/counter_1_1.svg"
+                  width={64}
+                  height={64}
+                  alt=""
+                />
               </div>
               <div className="media-body">
                 <h4 className="box-number">
@@ -37,7 +48,12 @@ const Counter = () => {
             <div className="divider"></div>
             <div className="counter-card fadeinup wow">
               <div className="box-icon">
-                <img src="/images/icons/counter_1_1.svg" alt="Icon" />
+                <Image
+                  src="/images/icons/counter_1_1.svg"
+                  width={64}
+                  height={64}
+                  alt=""
+                />
               </div>
               <div className="media-body">
                 <h4 className="box-number">
@@ -50,7 +66,12 @@ const Counter = () => {
             <div className="divider"></div>
             <div className="counter-card fadeinup wow">
               <div className="box-icon">
-                <img src="/images/icons/counter_1_1.svg" alt="Icon" />
+                <Image
+                  src="/images/icons/counter_1_1.svg"
+                  width={64}
+                  height={64}
+                  alt=""
+                />
               </div>
               <div className="media-body">
                 <h4 className="box-number">
