@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const BlogGrid = () => {
@@ -9,7 +10,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_1.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">22 Feb</a>
@@ -42,7 +48,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_2.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">23 Feb</a>
@@ -74,7 +85,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_3.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">24 Feb</a>
@@ -106,7 +122,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_4.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">26 Feb</a>
@@ -139,7 +160,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_5.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">27 Feb</a>
@@ -171,7 +197,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_6.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">16 Mar</a>
@@ -203,7 +234,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_7.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">19 Feb</a>
@@ -235,7 +271,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_8.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">20 Feb</a>
@@ -267,7 +308,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_9.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">11 Feb</a>
@@ -299,7 +345,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_10.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">21 Feb</a>
@@ -331,7 +382,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_11.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">13 Feb</a>
@@ -363,7 +419,12 @@ const BlogGrid = () => {
             <div className="blog-card">
               <div className="blog-img">
                 <a href="blog-details.html">
-                  <img src="/images/blog/blog_1_12.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog_1_1.jpg"
+                    width={464}
+                    height={392}
+                    alt=""
+                  />
                 </a>
                 <div className="date">
                   <a href="blog.html">15 Feb</a>

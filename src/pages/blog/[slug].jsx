@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import Layout from "@/components/Layout";
 import { animationMoving } from "@/utils/animation";
+import Image from "next/image";
 const BlogDetails = () => {
   const breadCumData = {
     title: "Blog Details",
@@ -21,7 +22,12 @@ const BlogDetails = () => {
             <div className="col-xxl-8 col-lg-7">
               <div className="th-blog blog-single">
                 <div className="blog-img">
-                  <img src="/images/blog/blog-s-1-1.jpg" alt="Image" />
+                  <Image
+                    src="/images/blog/blog-s-1-1.jpg"
+                    width={936}
+                    height={594}
+                    alt=""
+                  />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
@@ -120,19 +126,23 @@ const BlogDetails = () => {
                   <div className="row gx-30 mt-30 mb-34">
                     <div className="col-md-6 mb-30">
                       <div>
-                        <img
+                        <Image
                           className="w-100 rounded-10"
                           src="/images/blog/blog_inner_1.jpg"
-                          alt="Image"
+                          width={453}
+                          height={361}
+                          alt=""
                         />
                       </div>
                     </div>
                     <div className="col-md-6 mb-30">
                       <div>
-                        <img
+                        <Image
                           className="w-100 rounded-10"
                           src="/images/blog/blog_inner_2.jpg"
-                          alt="Image"
+                          width={453}
+                          height={361}
+                          alt=""
                         />
                       </div>
                     </div>
@@ -197,9 +207,11 @@ const BlogDetails = () => {
                   <li className="th-comment-item">
                     <div className="th-post-comment">
                       <div className="comment-avater">
-                        <img
+                        <Image
                           src="/images/blog/comment-author-1.jpg"
                           alt="Comment Author"
+                          height={80}
+                          width={80}
                         />
                       </div>
                       <div className="comment-content">
@@ -223,9 +235,11 @@ const BlogDetails = () => {
                       <li className="th-comment-item">
                         <div className="th-post-comment">
                           <div className="comment-avater">
-                            <img
+                            <Image
                               src="/images/blog/comment-author-2.jpg"
                               alt="Comment Author"
+                              height={80}
+                              width={80}
                             />
                           </div>
                           <div className="comment-content">
@@ -251,8 +265,10 @@ const BlogDetails = () => {
                   <li className="th-comment-item">
                     <div className="th-post-comment">
                       <div className="comment-avater">
-                        <img
+                        <Image
                           src="/images/blog/comment-author-3.jpg"
+                          height={80}
+                          width={80}
                           alt="Comment Author"
                         />
                       </div>
@@ -357,9 +373,11 @@ const BlogDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-1.jpg"
                             alt="Image"
+                            height={90}
+                            width={90}
                           />
                         </a>
                       </div>
@@ -375,21 +393,36 @@ const BlogDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>
@@ -402,9 +435,11 @@ const BlogDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-2.jpg"
                             alt="Image"
+                            height={90}
+                            width={90}
                           />
                         </a>
                       </div>
@@ -420,21 +455,36 @@ const BlogDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>
@@ -447,9 +497,11 @@ const BlogDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-3.jpg"
                             alt="Image"
+                            height={90}
+                            width={90}
                           />
                         </a>
                       </div>
@@ -465,21 +517,36 @@ const BlogDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>
@@ -492,9 +559,11 @@ const BlogDetails = () => {
                     <div className="recent-post">
                       <div className="media-img">
                         <a href="property-details.html">
-                          <img
+                          <Image
                             src="/images/blog/featured-listing-sidebar-1-4.jpg"
                             alt="Image"
+                            height={90}
+                            width={90}
                           />
                         </a>
                       </div>
@@ -510,21 +579,36 @@ const BlogDetails = () => {
                         <div className="property-features-wrap">
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bed.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bed.svg"
+                                width={23}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bed 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/bath.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/bath.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">Bath 2</h5>
                           </div>
                           <div className="divider"></div>
                           <div className="property-features-item">
                             <div className="thumb">
-                              <img src="/images/icons/sqft.svg" alt="icon" />
+                              <Image
+                                src="/images/icons/sqft.svg"
+                                width={16}
+                                height={16}
+                                alt=""
+                              />
                             </div>
                             <h5 className="feature-title">1599 sqft</h5>
                           </div>
