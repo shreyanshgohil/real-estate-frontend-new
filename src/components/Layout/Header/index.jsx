@@ -10,7 +10,12 @@ const Header = () => {
             <div className="col-auto">
               <div className="header-logo">
                 <a href="index.html">
-                  {/* <Image src="/images/logos/logo.svg" alt="Piller-html" width={199} height={44} /> */}
+                  <Image
+                    src="/images/logos/logo.svg"
+                    alt="Piller-html"
+                    width={199}
+                    height={44}
+                  />
                 </a>
               </div>
             </div>
