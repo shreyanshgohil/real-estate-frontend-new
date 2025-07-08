@@ -1,5 +1,5 @@
-import Layout from "@/components/Layout";
 import About from "@/components/Common/About";
+import Layout from "@/components/Layout";
 import ExploreCities from "@/components/Pages/Home/ExploreCities";
 import FAQ from "@/components/Pages/Home/FAQ";
 import FeaturedPropertiesLarge from "@/components/Pages/Home/FeaturedPropertiesLarge";
@@ -11,11 +11,11 @@ import PropertiesValues from "@/components/Pages/Home/PropertiesValues";
 import PropertyType from "@/components/Pages/Home/PropertyType";
 import Testimonials from "@/components/Pages/Home/Testimonials";
 import WhatWeDo from "@/components/Pages/Home/WhatWeDo";
-import { useEffect } from "react";
 import { animatingTextCircle, animationMoving } from "@/utils/animation";
+import { useLayoutEffect } from "react";
 
 const index = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
     animatingTextCircle();
   }, []);

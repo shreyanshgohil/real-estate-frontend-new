@@ -4,8 +4,8 @@ const AnnouncementBar = () => {
   return (
     <div className="header-top">
       <div className="container">
-        <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
-          <div className="col-auto d-none d-lg-block">
+        <div className="row  justify-content-between align-items-center gy-2">
+          <div className="col-auto">
             <div className="header-links">
               <ul>
                 <li>
@@ -35,9 +35,6 @@ const AnnouncementBar = () => {
                     </a>
                     <a href="https://www.linkedin.com/">
                       <i className="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://www.whatsapp.com/">
-                      <i className="fab fa-whatsapp"></i>
                     </a>
                   </div>
                 </li>

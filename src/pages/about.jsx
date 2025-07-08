@@ -6,10 +6,10 @@ import SignatureFeatures from "@/components/Pages/About/SignatureFeatures";
 import PillarAgents from "@/components/Pages/Home/PillarAgents";
 import Testimonials from "@/components/Pages/Home/Testimonials";
 import { animatingTextCircle, animationMoving } from "@/utils/animation";
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 
 const index = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
     animatingTextCircle();
   }, []);

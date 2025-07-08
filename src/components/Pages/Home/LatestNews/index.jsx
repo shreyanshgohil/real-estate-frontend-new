@@ -291,18 +291,6 @@ const LatestNews = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          <button
-            data-slider-prev="#blogSlider1"
-            className="slider-arrow slider-prev"
-          >
-            <i className="far fa-arrow-left"></i>
-          </button>
-          <button
-            data-slider-next="#blogSlider1"
-            className="slider-arrow slider-next"
-          >
-            <i className="far fa-arrow-right"></i>
-          </button>
         </div>
       </div>
     </section>

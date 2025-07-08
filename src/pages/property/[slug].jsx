@@ -1,17 +1,17 @@
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import Layout from "@/components/Layout";
-import { useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade, Thumbs } from "swiper/modules";
+import { animationMoving } from "@/utils/animation";
+import Image from "next/image";
+import { useLayoutEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/thumbs";
-import { animationMoving } from "@/utils/animation";
-import Image from "next/image";
+import { EffectFade, Thumbs } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const PropertyDetails = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
   }, []);
   const breadCumData = {

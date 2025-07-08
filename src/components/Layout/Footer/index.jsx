@@ -156,7 +156,7 @@ const Footer = () => {
                       </h4>
                     </div>
                   </div>
-                  <div className="footer-right-bottom-item scan">
+                  {/* <div className="footer-right-bottom-item scan">
                     <div className="footer-right-bottom-item__thumb">
                       <Image
                         width={43}
@@ -179,8 +179,8 @@ const Footer = () => {
                         width={50}
                       />
                     </div>
-                  </div>
-                  <div className="footer-right-bottom-item scan">
+                  </div> */}
+                  {/* <div className="footer-right-bottom-item scan">
                     <div className="footer-right-bottom-item__thumb">
                       <Image
                         src="/images/logos/footer-default-icon-1-3.png"
@@ -205,7 +205,7 @@ const Footer = () => {
                         width={50}
                       />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

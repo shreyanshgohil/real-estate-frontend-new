@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
   return (
-    <div className="sticky-wrapper">
+    <header className="sticky-wrapper ">
       <div className="menu-area">
         <div className="container th-container3">
           <div className="row align-items-center justify-content-between">
@@ -19,7 +20,7 @@ const Header = () => {
                 </a>
               </div>
             </div>
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <nav className="main-menu d-none d-lg-inline-block">
                 <ul>
                   <li>
@@ -36,7 +37,7 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
-                  
+
                   <li className="menu-item-has-children">
                     <a href="#">Blog</a>
                     <ul className="sub-menu">
@@ -69,13 +70,13 @@ const Header = () => {
               >
                 <i className="far fa-bars"></i>
               </button>
-            </div>
+            </div> */}
             <div className="col-auto d-none d-xl-block">
               <div className="header-button">
-                <a href="contact.html" className="th-btn bg-black pill">
-                  <i className="fa-regular fa-house-chimney me-2"></i> Add
-                  Listing{" "}
-                </a>
+                <Link href="/property" className="th-btn bg-black pill">
+                  <i class="fa-regular fa-magnifying-glass me-2"></i>
+                  Find Property
+                </Link>
                 <button
                   type="button"
                   className="sidemenu-bar sideMenuInfo pill"
@@ -89,7 +90,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

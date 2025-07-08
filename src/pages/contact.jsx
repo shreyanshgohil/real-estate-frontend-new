@@ -1,10 +1,10 @@
-import Layout from "@/components/Layout";
-import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
+import Layout from "@/components/Layout";
 import ContactArea from "@/components/Pages/Contact/ContactArea";
 import ContactForm from "@/components/Pages/Contact/ContactForm";
 import { animationMoving } from "@/utils/animation";
 import Image from "next/image";
+import { useLayoutEffect } from "react";
 const contact = () => {
   const breadCumData = {
     title: "Contact",
@@ -13,7 +13,7 @@ const contact = () => {
     base: "Home",
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
   }, []);
   return (

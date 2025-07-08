@@ -1,11 +1,11 @@
-import Layout from "@/components/Layout";
-import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
+import Layout from "@/components/Layout";
 import { animationMoving } from "@/utils/animation";
 import Image from "next/image";
+import { useLayoutEffect } from "react";
 
 const NotFound = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
   }, []);
 

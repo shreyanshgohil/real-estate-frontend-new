@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import Layout from "@/components/Layout";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
+import Layout from "@/components/Layout";
 import { animationMoving } from "@/utils/animation";
 import Image from "next/image";
+import { useLayoutEffect } from "react";
 const wishlist = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
   }, []);
 

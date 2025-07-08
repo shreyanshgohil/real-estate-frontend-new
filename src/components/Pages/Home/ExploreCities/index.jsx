@@ -48,7 +48,7 @@ const ExploreCities = () => {
         <div className="gallery-2-slider-wrap">
           <div className="slider-area">
             <Swiper
-              className="swiper th-slider has-shadow gallery-1"
+              className="swiper "
               centeredSlides={false}
               loop={true}
               spaceBetween={24}
@@ -300,19 +300,6 @@ const ExploreCities = () => {
                   </div>
                 </div>
               </SwiperSlide>
-
-              <button
-                data-slider-prev="#gallerySlider1"
-                className="slider-arrow slider-prev style2"
-              >
-                <i className="far fa-arrow-left"></i>
-              </button>
-              <button
-                data-slider-next="#gallerySlider1"
-                className="slider-arrow slider-next style2"
-              >
-                <i className="far fa-arrow-right"></i>
-              </button>
             </Swiper>
           </div>
         </div>

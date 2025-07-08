@@ -14,6 +14,7 @@ const BreadCumMenu = (props) => {
           <ul className="breadcumb-menu">
             <li>
               <a href={breadCumData.baseUrl}>{breadCumData.base}</a>
+              <i class="fa-regular fa-angle-right breadcumb-angle-right" />
             </li>
             <li>{breadCumData.title}</li>
           </ul>

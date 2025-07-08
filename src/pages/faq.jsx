@@ -1,9 +1,9 @@
-import Layout from "@/components/Layout";
-import React, { useEffect } from "react";
 import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
+import Layout from "@/components/Layout";
 import { animationMoving } from "@/utils/animation";
+import { useLayoutEffect } from "react";
 const faq = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
   }, []);
 

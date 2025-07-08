@@ -4,10 +4,10 @@ import Layout from "@/components/Layout";
 import FAQ from "@/components/Pages/Home/FAQ";
 import PricingPlan from "@/components/Pages/Pricing/PricingPlan";
 import { animationMoving } from "@/utils/animation";
-import React, { useEffect } from "react";
+import { useLayoutEffect } from "react";
 
 const Pricing = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     animationMoving();
   }, []);
   const breadCumData = {
