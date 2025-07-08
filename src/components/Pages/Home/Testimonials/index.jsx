@@ -1,8 +1,6 @@
-import React from "react";
+import Image from "next/image";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
-import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -36,11 +34,7 @@ const Testimonials = () => {
               id="testiSlide1"
               centeredSlides={true}
               loop={true}
-              pagination={{
-                type: "progressbar",
-              }}
               slidesPerView={1}
-              modules={[Pagination]}
             >
               <div
                 className="swiper has-shadow th-slider"
@@ -263,7 +257,7 @@ const Testimonials = () => {
             </Swiper>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="testi-bottom-review-wrap">
               <div className="testi-bottom-item">
@@ -345,7 +339,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

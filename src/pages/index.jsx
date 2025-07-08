@@ -4,7 +4,6 @@ import ExploreCities from "@/components/Pages/Home/ExploreCities";
 import FAQ from "@/components/Pages/Home/FAQ";
 import FeaturedPropertiesLarge from "@/components/Pages/Home/FeaturedPropertiesLarge";
 import Hero from "@/components/Pages/Home/Hero";
-import LatestNews from "@/components/Pages/Home/LatestNews";
 import LatestProperties from "@/components/Pages/Home/LatestProperties";
 import PillarAgents from "@/components/Pages/Home/PillarAgents";
 import PropertiesValues from "@/components/Pages/Home/PropertiesValues";
@@ -33,7 +32,7 @@ const index = () => {
       <FeaturedPropertiesLarge />
       <Testimonials />
       <FAQ />
-      <LatestNews />
+      {/* <LatestNews /> */}
     </Layout>
   );
 };

@@ -323,19 +323,6 @@ const PillarAgents = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-
-          <button
-            data-slider-prev="#teamSlider1"
-            className="slider-arrow slider-prev"
-          >
-            <i className="far fa-arrow-left"></i>
-          </button>
-          <button
-            data-slider-next="#teamSlider1"
-            className="slider-arrow slider-next"
-          >
-            <i className="far fa-arrow-right"></i>
-          </button>
         </div>
 
         <div className="row gy-40 justify-content-center">
