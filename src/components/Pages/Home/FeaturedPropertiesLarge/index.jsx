@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -462,19 +462,6 @@ const FeaturedPropertiesLarge = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-
-          <button
-            data-slider-prev="#featuresSlider"
-            className="slider-arrow slider-prev"
-          >
-            <i className="far fa-arrow-left"></i>
-          </button>
-          <button
-            data-slider-next="#featuresSlider"
-            className="slider-arrow slider-next"
-          >
-            <i className="far fa-arrow-right"></i>
-          </button>
         </div>
       </div>
     </section>

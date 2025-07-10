@@ -1,7 +1,18 @@
+import Accordion from "@/components/Common/Accordion";
+import { homePageFaq } from "@/constants/home";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const FAQ = () => {
+  const [openFAQ, setOpenFaq] = useState(0);
+
+  const toggleFaqHandler = (faqIndex) => {
+    if (openFAQ === faqIndex) {
+      setOpenFaq(null);
+    } else {
+      setOpenFaq(faqIndex);
+    }
+  };
   return (
     <div className="space bg-smoke">
       <div
@@ -71,175 +82,19 @@ const FAQ = () => {
           </div>
           <div className="col-lg-7 col-xl-7 col-xxl-7">
             <div className="accordion-1 accordion" id="faqAccordion">
-              <div className="accordion-card active">
-                <div className="accordion-header" id="collapse-item-1">
-                  <button
-                    className="accordion-button "
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-1"
-                    aria-expanded="true"
-                    aria-controls="collapse-1"
+              {homePageFaq.map((faq, index) => {
+                return (
+                  <Accordion
+                    key={index}
+                    title={faq.title}
+                    openFAQ={openFAQ}
+                    toggleFaqHandler={toggleFaqHandler}
+                    index={index}
                   >
-                    <span className="serial-numb">1. </span> What is Pillar real
-                    estate?
-                  </button>
-                </div>
-                <div
-                  id="collapse-1"
-                  className="accordion-collapse collapse show"
-                  aria-labelledby="collapse-item-1"
-                  data-bs-parent="#faqAccordion"
-                >
-                  <div className="accordion-body">
-                    <p className="faq-text">
-                      {" "}
-                      Most Islamic centers offer charity programs, counseling,
-                      and financial assistance for those in need. Non-Muslims
-                      are welcome to visit mosques. They should dress modestly
-                      and remove their shoes upon entering. You can attend
-                      community events, volunteer at the mosque, join study
-                      circles, or participate in outreach programs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordion-card ">
-                <div className="accordion-header" id="collapse-item-2">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-2"
-                    aria-expanded="false"
-                    aria-controls="collapse-2"
-                  >
-                    <span className="serial-numb">2. </span> How to work pillar
-                    all services?
-                  </button>
-                </div>
-                <div
-                  id="collapse-2"
-                  className="accordion-collapse collapse "
-                  aria-labelledby="collapse-item-2"
-                  data-bs-parent="#faqAccordion"
-                >
-                  <div className="accordion-body">
-                    <p className="faq-text">
-                      {" "}
-                      Most Islamic centers offer charity programs, counseling,
-                      and financial assistance for those in need. Non-Muslims
-                      are welcome to visit mosques. They should dress modestly
-                      and remove their shoes upon entering. You can attend
-                      community events, volunteer at the mosque, join study
-                      circles, or participate in outreach programs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordion-card ">
-                <div className="accordion-header" id="collapse-item-3">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-3"
-                    aria-expanded="false"
-                    aria-controls="collapse-3"
-                  >
-                    <span className="serial-numb">3. </span> What resources are
-                    available for interfaith dialogue?
-                  </button>
-                </div>
-                <div
-                  id="collapse-3"
-                  className="accordion-collapse collapse "
-                  aria-labelledby="collapse-item-3"
-                  data-bs-parent="#faqAccordion"
-                >
-                  <div className="accordion-body">
-                    <p className="faq-text">
-                      {" "}
-                      Most Islamic centers offer charity programs, counseling,
-                      and financial assistance for those in need. Non-Muslims
-                      are welcome to visit mosques. They should dress modestly
-                      and remove their shoes upon entering. You can attend
-                      community events, volunteer at the mosque, join study
-                      circles, or participate in outreach programs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordion-card ">
-                <div className="accordion-header" id="collapse-item-4">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-4"
-                    aria-expanded="false"
-                    aria-controls="collapse-4"
-                  >
-                    <span className="serial-numb">4. </span> What programs are
-                    available for developer?
-                  </button>
-                </div>
-                <div
-                  id="collapse-4"
-                  className="accordion-collapse collapse "
-                  aria-labelledby="collapse-item-4"
-                  data-bs-parent="#faqAccordion"
-                >
-                  <div className="accordion-body">
-                    <p className="faq-text">
-                      {" "}
-                      Most Islamic centers offer charity programs, counseling,
-                      and financial assistance for those in need. Non-Muslims
-                      are welcome to visit mosques. They should dress modestly
-                      and remove their shoes upon entering. You can attend
-                      community events, volunteer at the mosque, join study
-                      circles, or participate in outreach programs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordion-card ">
-                <div className="accordion-header" id="collapse-item-5">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-5"
-                    aria-expanded="false"
-                    aria-controls="collapse-5"
-                  >
-                    <span className="serial-numb">5. </span> How can I
-                    contribute to the local real estate?
-                  </button>
-                </div>
-                <div
-                  id="collapse-5"
-                  className="accordion-collapse collapse "
-                  aria-labelledby="collapse-item-5"
-                  data-bs-parent="#faqAccordion"
-                >
-                  <div className="accordion-body">
-                    <p className="faq-text">
-                      {" "}
-                      Most Islamic centers offer charity programs, counseling,
-                      and financial assistance for those in need. Non-Muslims
-                      are welcome to visit mosques. They should dress modestly
-                      and remove their shoes upon entering. You can attend
-                      community events, volunteer at the mosque, join study
-                      circles, or participate in outreach programs.
-                    </p>
-                  </div>
-                </div>
-              </div>
+                    {faq.body}
+                  </Accordion>
+                );
+              })}
             </div>
           </div>
         </div>

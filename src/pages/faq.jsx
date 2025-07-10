@@ -1,7 +1,7 @@
-import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import Layout from "@/components/Layout";
+import React, { useEffect, useLayoutEffect } from "react";
+import BreadcumbMenu from "@/components/Common/BreadcumbMenu";
 import { animationMoving } from "@/utils/animation";
-import { useLayoutEffect } from "react";
 const faq = () => {
   useLayoutEffect(() => {
     animationMoving();
@@ -124,27 +124,15 @@ const faq = () => {
             </div>
             <div class="col-xxl-7 col-lg-7">
               <div class="th-faq-wrapper">
-                <div class="accordion-1 accordion" id="faqAccordion">
-                  <div class="accordion-card active">
-                    <div class="accordion-header" id="collapse-item-1">
-                      <button
-                        class="accordion-button "
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse-1"
-                        aria-expanded="true"
-                        aria-controls="collapse-1"
-                      >
+                <div class="accordion accordion" id="faqAccordion">
+                  <div class="accordion-card">
+                    <div class="accordion-header">
+                      <button class="accordion-button " type="button">
                         <span class="serial-numb">1. </span> What is Pillar real
                         estate?
                       </button>
                     </div>
-                    <div
-                      id="collapse-1"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="collapse-item-1"
-                      data-bs-parent="#faqAccordion"
-                    >
+                    <div id="collapse-1" class="accordion-collapse">
                       <div class="accordion-body">
                         <p class="faq-text">
                           {" "}
